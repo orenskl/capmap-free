@@ -1,0 +1,380 @@
+Dump a binary file
+File: C:\Documents and Settings\julien\Bureau\fichiers cap\mypackage07.cap
+image size on load is      : 364 bytes
+system overhead for install: 54 bytes
+
+Warning: this evaluation does not include objects instanced within the applet.
+
+.header = {
+	magic             : decaffed
+	minor_version     : 1
+	major_version     : 2
+	flags             : 4
+	pkg_minor_version : 0
+	pkg_major_version : 2
+	pkg_AID_length    : c
+	pkg_AID           : 65.6e.73.69.6d.61.67.64.75.6d.70.32
+}
+
+.DirectoryComponent = {
+	component_sizes = {
+		Header           : 22
+		Directory        : 31
+		Applet           : 19
+		Import           : 11
+		ConstantPool     : 50
+		Class            : 20
+		Method           : 201
+		StaticField      : 10
+		ReferenceLocation: 18
+		Export           : 0
+		Descriptor       : 142
+	}
+	static_field_size_info = {
+		image_size       : 2
+		array_init_count : 0
+		array_init_size  : 0
+	}
+	import_count : 1
+	applet_count : 1
+	custom_count : 0
+}
+
+
+
+.ImportComponent = {
+	count : 1
+	package_info = {
+		minor_version : 2
+		major_version : 1
+		AID_length    : 7
+		AID           : a0.00.00.00.62.01.01
+	}
+}
+
+.Applets = {
+	AID: 65.6e.73.69.6d.61.67.64.75.6d.70.32.70.75.72
+	install_method_offset: @005e
+}
+
+.class { // @0000
+	classes [0]: { //@0000
+		flags = (0x0)
+		interface_count: 0
+		super_class_ref: external class 0x3 of package 0x80
+		declared_instance_size     :1
+		first_reference_index      :0
+		reference_count            :1
+		public_method_table_base   :4
+		public_method_table_count  :5
+		package_method_table_base  :0
+        package_method_table_count :0
+		public_virtual_method_table = {
+			@0070
+			inherited
+			@006c
+			@0073
+			@0001
+		}
+		package_methods = {
+		}
+		interfaces = {
+		}
+	}
+}
+
+.method {
+	method_info[0] // @0001= {
+		// flags     : 0
+		// max_stack : 1
+		// nargs     : 1
+		// max_locals: 0
+		/*0003*/ L0:   getstatic_s     0x0002
+		/*0006*/       sreturn
+	}
+
+	method_info[1] // @0007= {
+		// flags     : 0
+		// max_stack : 5
+		// nargs     : 4
+		// max_locals: 2
+		/*0009*/ L0:   aload_0
+		/*000a*/       invokespecial   0x0001
+		/*000d*/       aload_0
+		/*000e*/       sconst_3
+		/*000f*/       newarray        byte
+		/*0011*/       dup
+		/*0012*/       sconst_0
+		/*0013*/       bspush          0xdd
+		/*0015*/       bastore
+		/*0016*/       dup
+		/*0017*/       sconst_1
+		/*0018*/       bspush          0xdd
+		/*001a*/       bastore
+		/*001b*/       dup
+		/*001c*/       sconst_2
+		/*001d*/       bspush          0xdd
+		/*001f*/       bastore
+		/*0020*/       putfield_a      0x00
+		/*0022*/       sload_2
+		/*0023*/       sstore          0x04
+		/*0025*/       sconst_0
+		/*0026*/       sstore          0x05
+		/*0028*/       sload_3
+		/*0029*/       bspush          0x09
+		/*002b*/       if_scmplt       L1 // rel:+29 (@0048)
+		/*002d*/       sload           0x04
+		/*002f*/       sconst_1
+		/*0030*/       aload_1
+		/*0031*/       sload_2
+		/*0032*/       baload
+		/*0033*/       sadd
+		/*0034*/       sadd
+		/*0035*/       sstore          0x04
+		/*0037*/       sload           0x04
+		/*0039*/       sconst_1
+		/*003a*/       aload_1
+		/*003b*/       sload           0x04
+		/*003d*/       baload
+		/*003e*/       sadd
+		/*003f*/       sadd
+		/*0040*/       sstore          0x04
+		/*0042*/       sinc            0x04, 0x01
+		/*0045*/       sconst_1
+		/*0046*/       sstore          0x05
+		/*0048*/ L1:   sload           0x05
+		/*004a*/       ifeq            L2 // rel:+15 (@0059)
+		/*004c*/       aload_0
+		/*004d*/       aload_1
+		/*004e*/       sload_2
+		/*004f*/       sconst_1
+		/*0050*/       sadd
+		/*0051*/       aload_1
+		/*0052*/       sload_2
+		/*0053*/       baload
+		/*0054*/       invokevirtual   0x0003
+		/*0057*/       goto            L3 // rel:+6 (@005d)
+		/*0059*/ L2:   aload_0
+		/*005a*/       invokevirtual   0x0004
+		/*005d*/ L3:   return
+	}
+
+	method_info[2] // @005e= {
+		// flags     : 0
+		// max_stack : 5
+		// nargs     : 3
+		// max_locals: 0
+		/*0060*/ L0:   new             0x0005
+		/*0063*/       dup
+		/*0064*/       aload_0
+		/*0065*/       sload_1
+		/*0066*/       sload_2
+		/*0067*/       invokespecial   0x0006
+		/*006a*/       pop
+		/*006b*/       return
+	}
+
+	method_info[3] // @006c= {
+		// flags     : 0
+		// max_stack : 1
+		// nargs     : 1
+		// max_locals: 0
+		/*006e*/ L0:   sconst_1
+		/*006f*/       sreturn
+	}
+
+	method_info[4] // @0070= {
+		// flags     : 0
+		// max_stack : 0
+		// nargs     : 1
+		// max_locals: 0
+		/*0072*/ L0:   return
+	}
+
+	method_info[5] // @0073= {
+		// flags     : 0
+		// max_stack : 4
+		// nargs     : 2
+		// max_locals: 2
+		/*0075*/ L0:   aload_1
+		/*0076*/       invokevirtual   0x0007
+		/*0079*/       astore_2
+		/*007a*/       aload_0
+		/*007b*/       invokevirtual   0x0008
+		/*007e*/       ifeq            L1 // rel:+3 (@0081)
+		/*0080*/       return
+		/*0081*/ L1:   aload_2
+		/*0082*/       sconst_0
+		/*0083*/       baload
+		/*0084*/       bspush          0x80
+		/*0086*/       if_scmpeq       L2 // rel:+8 (@008e)
+		/*0088*/       sspush          0x6e00
+		/*008b*/       invokestatic    0x0009
+		/*008e*/ L2:   aload_2
+		/*008f*/       sconst_2
+		/*0090*/       baload
+		/*0091*/       ifne            L3 // rel:+7 (@0098)
+		/*0093*/       aload_2
+		/*0094*/       sconst_3
+		/*0095*/       baload
+		/*0096*/       ifeq            L4 // rel:+8 (@009e)
+		/*0098*/ L3:   sspush          0x6a86
+		/*009b*/       invokestatic    0x0009
+		/*009e*/ L4:   aload_2
+		/*009f*/       sconst_1
+		/*00a0*/       baload
+		/*00a1*/       bspush          0x3a
+		/*00a3*/       if_scmpeq       L5 // rel:+8 (@00ab)
+		/*00a5*/       sspush          0x6d00
+		/*00a8*/       invokestatic    0x0009
+		/*00ab*/ L5:   aload_0
+		/*00ac*/       invokevirtual   0x000a
+		/*00af*/       sstore_3
+		/*00b0*/       aload_2
+		/*00b1*/       sconst_0
+		/*00b2*/       sload_3
+		/*00b3*/       sspush          0x0100
+		/*00b6*/       sdiv
+		/*00b7*/       s2b
+		/*00b8*/       bastore
+		/*00b9*/       aload_2
+		/*00ba*/       sconst_1
+		/*00bb*/       sload_3
+		/*00bc*/       sspush          0x0100
+		/*00bf*/       srem
+		/*00c0*/       s2b
+		/*00c1*/       bastore
+		/*00c2*/       aload_1
+		/*00c3*/       sconst_0
+		/*00c4*/       sconst_2
+		/*00c5*/       invokevirtual   0x000b
+		/*00c8*/       return
+	}
+}
+
+.StaticFieldComponent = {
+	image_size              : 2
+	reference_count         : 0
+	array_init_count        : 0
+	array_init = {
+	}
+	default_value_count     : 2
+	non_default_value_count : 0
+	non_default_values = {
+	}
+}
+
+.ConstantPool = {
+	/* 0000,   0 */ CONSTANT_InstanceFieldRef : field 0 of class 0x0000
+	/* 0004,   1 */ CONSTANT_StaticMethodRef  : external: 0x80, 0x3, 0x0
+	/* 0008,   2 */ CONSTANT_StaticFieldRef   : 0x0000
+	/* 000c,   3 */ CONSTANT_VirtualMethodRef : method 2 of class external: 0x80, 0x3
+	/* 0010,   4 */ CONSTANT_VirtualMethodRef : method 1 of class external: 0x80, 0x3
+	/* 0014,   5 */ CONSTANT_ClassRef         : 0x0000
+	/* 0018,   6 */ CONSTANT_StaticMethodRef  : 0x0007
+	/* 001c,   7 */ CONSTANT_VirtualMethodRef : method 1 of class external: 0x80, 0xa
+	/* 0020,   8 */ CONSTANT_VirtualMethodRef : method 3 of class external: 0x80, 0x3
+	/* 0024,   9 */ CONSTANT_StaticMethodRef  : external: 0x80, 0x7, 0x1
+	/* 0028,  10 */ CONSTANT_VirtualMethodRef : method 8 of class 0x0000
+	/* 002c,  11 */ CONSTANT_VirtualMethodRef : method 8 of class external: 0x80, 0xa
+}
+
+.ReferenceLocationComponent = {
+	offsets_to_byte_indices = {
+		  @0021
+	}
+	offsets_to_byte2_indices = {
+		  @0000  @000b  @0055  @005b  @0061  @0068  @0077  @007c
+		  @008c  @009c  @00a9  @00ad  @00c6
+	}
+}
+
+.DescriptorComponent = {
+	count : 1
+	class_descriptor_info[0] = {
+		token        : 0
+		access_flag  : ACC_PUBLIC
+		this_class_ref : internal class reference (offset = 0000)
+		interface_count  : 0
+		field_count  : 2
+		method_count  : 6
+		fiels[0] = {
+			token          : 255
+			access_flag    : 10
+			field_ref      : 00 00 00
+			type           : 32772
+		}
+		fiels[1] = {
+			token          : 0
+			access_flag    : 0
+			field_ref      : 00 00 00
+			type           : 26
+		}
+		method[0] = {
+			token          : 8
+			access_flag    : (1) ACC_PUBLIC
+			method_offset  : 0x1
+			type_offset    : /* 30*/ ( ) S
+			bytecode_count : 4
+			exception_handler_count : 0
+			exception_handler_index : 0
+		}
+		method[1] = {
+			token          : 0
+			access_flag    : (84) ACC_INIT ACC_PROTECTED
+			method_offset  : 0x7
+			type_offset    : /* 32*/ ( [B; S; B; ) V
+			bytecode_count : 85
+			exception_handler_count : 0
+			exception_handler_index : 0
+		}
+		method[2] = {
+			token          : 1
+			access_flag    : (9) ACC_STATIC ACC_PUBLIC
+			method_offset  : 0x5e
+			type_offset    : /* 32*/ ( [B; S; B; ) V
+			bytecode_count : 12
+			exception_handler_count : 0
+			exception_handler_index : 0
+		}
+		method[3] = {
+			token          : 6
+			access_flag    : (1) ACC_PUBLIC
+			method_offset  : 0x6c
+			type_offset    : /* 35*/ ( ) Z
+			bytecode_count : 2
+			exception_handler_count : 0
+			exception_handler_index : 0
+		}
+		method[4] = {
+			token          : 4
+			access_flag    : (1) ACC_PUBLIC
+			method_offset  : 0x70
+			type_offset    : /* 28*/ ( ) V
+			bytecode_count : 1
+			exception_handler_count : 0
+			exception_handler_index : 0
+		}
+		method[5] = {
+			token          : 7
+			access_flag    : (1) ACC_PUBLIC
+			method_offset  : 0x73
+			type_offset    : /* 42*/ ( L80.0a; ) V
+			bytecode_count : 84
+			exception_handler_count : 0
+			exception_handler_index : 0
+		}
+	}
+	type_descriptor_info = {
+		Initial offset value = 26
+		constant_pool_type : 1a 1c 1e 20 1c ffff 20 1a 23 25 1e 27
+		type_desc[0] = (offset = 26)  [B PADDING
+		type_desc[1] = (offset = 28)  V PADDING
+		type_desc[2] = (offset = 30)  S PADDING
+		type_desc[3] = (offset = 32)  [B S B V
+		type_desc[4] = (offset = 35)  Z PADDING
+		type_desc[5] = (offset = 37)  S V
+		type_desc[6] = (offset = 39)  S S V PADDING
+		type_desc[7] = (offset = 42)  L  (PACKAGE_TOKEN= 80, CLASS_TOKEN= 0a) V
+	}
+}

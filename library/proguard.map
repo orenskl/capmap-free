@@ -1,0 +1,1616 @@
+fr.xlim.ssd.capmanipulator.library.AppletComponent -> fr.xlim.ssd.capmanipulator.a:
+    byte count -> a
+    java.util.List applets -> b
+    52:53:void setCount(byte) -> a
+    61:61:byte getCount() -> a
+    70:71:void setApplets(java.util.List) -> a
+    79:79:java.util.List getApplets() -> b
+    89:104:java.lang.String toString() -> toString
+    109:117:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ArrayInitInfo -> fr.xlim.ssd.capmanipulator.b:
+    byte type -> a
+    short count -> b
+    java.util.ArrayList values -> c
+    50:82:java.lang.String toString() -> toString
+    91:91:byte getType() -> a
+    100:101:void setType(byte) -> a
+    109:109:short getCount() -> b
+    118:119:void setCount(short) -> a
+    127:127:java.util.ArrayList getValues() -> c
+    136:137:void setValues(java.util.ArrayList) -> a
+    141:150:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.Attacks.J2L -> fr.xlim.ssd.capmanipulator.c:
+    org.slf4j.Logger logger -> a
+    31:176:void main$3231c38a() -> a
+fr.xlim.ssd.capmanipulator.library.Attacks.MainContext -> fr.xlim.ssd.capmanipulator.d:
+    org.slf4j.Logger logger -> a
+    30:416:void main$3231c38a() -> a
+fr.xlim.ssd.capmanipulator.library.Attacks.MainContextCharac -> fr.xlim.ssd.capmanipulator.e:
+    org.slf4j.Logger logger -> a
+    27:383:void main$3231c38a() -> a
+fr.xlim.ssd.capmanipulator.library.Attacks.MainDumpStack -> fr.xlim.ssd.capmanipulator.f:
+    org.slf4j.Logger logger -> a
+    32:341:void main$3231c38a() -> a
+fr.xlim.ssd.capmanipulator.library.Attacks.MainException -> fr.xlim.ssd.capmanipulator.g:
+    org.slf4j.Logger logger -> a
+    33:166:void main$3231c38a() -> a
+fr.xlim.ssd.capmanipulator.library.Attacks.MainSINC -> fr.xlim.ssd.capmanipulator.h:
+    org.slf4j.Logger logger -> a
+    26:145:void main$3231c38a() -> a
+fr.xlim.ssd.capmanipulator.library.Attacks.MainSWAP -> fr.xlim.ssd.capmanipulator.i:
+    org.slf4j.Logger logger -> a
+    java.lang.String PACKAGE_NAME -> b
+    34:172:void main$3231c38a() -> a
+fr.xlim.ssd.capmanipulator.library.CapApplet -> fr.xlim.ssd.capmanipulator.j:
+    byte aidLength -> a
+    java.util.ArrayList aid -> b
+    java.lang.Short installMethodOffset -> c
+    52:53:void setAidLength(byte) -> a
+    61:61:byte getAidLength() -> a
+    70:71:void setAid(java.util.ArrayList) -> a
+    79:79:java.util.ArrayList getAid() -> b
+    88:89:void setInstallMethodOffset(java.lang.Short) -> a
+    97:97:java.lang.Short getInstallMethodOffset() -> c
+    107:148:java.lang.String toString() -> toString
+    153:162:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.CapFile -> fr.xlim.ssd.capmanipulator.k:
+    org.slf4j.Logger logger -> a
+    java.util.ArrayList components -> b
+    java.util.Map offsetMethodToNumber -> c
+    60:60:java.util.ArrayList getComponents() -> a
+    64:65:void setComponents(java.util.ArrayList) -> a
+    68:73:fr.xlim.ssd.capmanipulator.library.HeaderComponent getHeaderComponent() -> b
+    77:82:fr.xlim.ssd.capmanipulator.library.DirectoryComponent getDirectoryComponent() -> c
+    86:91:fr.xlim.ssd.capmanipulator.library.ImportComponent getImportComponent() -> d
+    95:100:fr.xlim.ssd.capmanipulator.library.AppletComponent getAppletComponent() -> e
+    104:109:fr.xlim.ssd.capmanipulator.library.ClassComponent getClassComponent() -> f
+    113:118:fr.xlim.ssd.capmanipulator.library.MethodComponent getMethodComponent() -> g
+    122:127:fr.xlim.ssd.capmanipulator.library.StaticFieldComponent getStaticFieldComponent() -> h
+    131:136:fr.xlim.ssd.capmanipulator.library.ExportComponent getExportComponent() -> i
+    140:145:fr.xlim.ssd.capmanipulator.library.ConstantPoolComponent getConstantPoolComponent() -> j
+    149:154:fr.xlim.ssd.capmanipulator.library.ReferenceLocationComponent getReferenceLocationComponent() -> k
+    159:164:fr.xlim.ssd.capmanipulator.library.DescriptorComponent getDescriptorComponent() -> l
+    168:173:fr.xlim.ssd.capmanipulator.library.DebugComponent getDebugComponent() -> m
+    177:183:java.util.List getCustomComponents() -> o
+    187:187:java.util.Map getOffsetMethodToNumber() -> n
+    191:192:void setOffsetMethodToNumber(java.util.Map) -> a
+    202:207:java.lang.String toString() -> toString
+fr.xlim.ssd.capmanipulator.library.ClassComponent -> fr.xlim.ssd.capmanipulator.l:
+    byte ACC_INTERFACE -> a
+    byte ACC_SHAREABLE -> b
+    byte ACC_REMOTE -> c
+    short signaturePoolLength -> d
+    java.util.ArrayList signaturePool -> e
+    java.util.ArrayList classes -> f
+    java.util.ArrayList interfaces -> g
+    61:62:void setSignaturePoolLength(short) -> b
+    70:70:short getSignaturePoolLength() -> e
+    79:80:void setSignaturePool(java.util.ArrayList) -> a
+    88:88:java.util.ArrayList getSignaturePool() -> f
+    97:98:void setClasses(java.util.ArrayList) -> b
+    106:106:java.util.ArrayList getClasses() -> a
+    115:116:void setInterfaces(java.util.ArrayList) -> c
+    124:124:java.util.ArrayList getInterfaces() -> b
+    135:184:java.lang.String toString() -> toString
+    189:199:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ClassDebugInfo -> fr.xlim.ssd.capmanipulator.m:
+    short nameIndex -> a
+    short accessFlags -> b
+    short location -> c
+    short superNameIndex -> d
+    short sourceFileIndex -> e
+    byte interfaceCount -> f
+    short fieldCount -> g
+    short methodCount -> h
+    java.util.ArrayList interfaceNamesIndexes -> i
+    java.util.ArrayList fields -> j
+    java.util.ArrayList methods -> k
+    69:69:short getNameIndex() -> a
+    73:74:void setNameIndex(short) -> a
+    77:77:short getAccessFlags() -> b
+    81:82:void setAccessFlags(short) -> b
+    85:85:short getLocation() -> c
+    89:90:void setLocation(short) -> c
+    93:93:short getSuperNameIndex() -> d
+    97:98:void setSuperNameIndex(short) -> d
+    101:101:short getSourceFileIndex() -> e
+    105:106:void setSourceFileIndex(short) -> e
+    109:109:byte getInterfaceCount() -> f
+    113:114:void setInterfaceCount(byte) -> a
+    117:117:short getFieldCount() -> g
+    121:122:void setFieldCount(short) -> f
+    125:125:short getMethodCount() -> h
+    129:130:void setMethodCount(short) -> g
+    133:133:java.util.ArrayList getInterfaceNamesIndexes() -> i
+    137:137:java.util.ArrayList getFields() -> j
+    141:142:void setFields(java.util.ArrayList) -> a
+    145:145:java.util.ArrayList getMethods() -> k
+    149:150:void setMethods(java.util.ArrayList) -> b
+fr.xlim.ssd.capmanipulator.library.ClassDescriptorInfo -> fr.xlim.ssd.capmanipulator.n:
+    byte token -> a
+    byte accesFlags -> b
+    fr.xlim.ssd.capmanipulator.library.ClassRef thisClassRef -> c
+    byte interfaceCount -> d
+    short fieldCount -> e
+    short methodCount -> f
+    java.util.ArrayList interfaces -> g
+    java.util.ArrayList fields -> h
+    java.util.ArrayList methods -> i
+    60:118:java.lang.String toString() -> toString
+    125:125:byte getAccesFlags() -> a
+    129:130:void setAccesFlags(byte) -> a
+    133:133:short getFieldCount() -> b
+    137:138:void setFieldCount(short) -> a
+    141:141:java.util.ArrayList getFields() -> c
+    145:146:void setFields(java.util.ArrayList) -> a
+    149:149:byte getInterfaceCount() -> d
+    153:154:void setInterfaceCount(byte) -> b
+    157:157:java.util.ArrayList getInterfaces() -> e
+    161:162:void setInterfaces(java.util.ArrayList) -> b
+    165:165:short getMethodCount() -> f
+    169:170:void setMethodCount(short) -> b
+    173:173:java.util.ArrayList getMethods() -> g
+    177:178:void setMethods(java.util.ArrayList) -> c
+    181:181:fr.xlim.ssd.capmanipulator.library.ClassRef getThisClassRef() -> h
+    185:186:void setThisClassRef(fr.xlim.ssd.capmanipulator.library.ClassRef) -> a
+    189:189:byte getToken() -> i
+    193:194:void setToken(byte) -> c
+    198:213:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ClassExportsInfo -> fr.xlim.ssd.capmanipulator.o:
+    short classOffset -> a
+    byte staticFieldCount -> b
+    byte staticMethodCount -> c
+    java.util.ArrayList staticFieldOffsets -> d
+    java.util.ArrayList staticMethodOffsets -> e
+    42:65:java.lang.String toString() -> toString
+    74:74:short getClassOffset() -> a
+    83:84:void setClassOffset(short) -> a
+    92:92:byte getStaticFieldCount() -> b
+    101:102:void setStaticFieldCount(byte) -> a
+    110:110:byte getStaticMethodCount() -> c
+    119:120:void setStaticMethodCount(byte) -> b
+    128:128:java.util.ArrayList getStaticFieldOffsets() -> d
+    137:138:void setStaticFieldOffsets(java.util.ArrayList) -> a
+    146:146:java.util.ArrayList getStaticMethodOffsets() -> e
+    155:156:void setStaticMethodOffsets(java.util.ArrayList) -> b
+    160:171:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ClassInfo -> fr.xlim.ssd.capmanipulator.p:
+    int offset -> a
+    byte flags -> b
+    fr.xlim.ssd.capmanipulator.library.ClassRef superClassRef -> c
+    byte declaredInstanceSize -> d
+    byte firstReferenceToken -> e
+    byte referenceCount -> f
+    byte publicMethodTableBase -> g
+    byte publicMethodTableCount -> h
+    byte packageMethodTableBase -> i
+    byte packageMethodTableCount -> j
+    java.util.ArrayList publicVirtualMethodTable -> k
+    java.util.ArrayList packageVirtualMethodTable -> l
+    java.util.ArrayList interfaces -> m
+    fr.xlim.ssd.capmanipulator.library.RemoteInterfaceInfo remoteInterfacesInfo -> n
+    94:94:byte getFlags() -> a
+    103:104:void setFlags(byte) -> a
+    112:112:fr.xlim.ssd.capmanipulator.library.ClassRef getSuperClassRef() -> b
+    121:122:void setSuperClassRef(fr.xlim.ssd.capmanipulator.library.ClassRef) -> a
+    130:130:byte getDeclaredInstanceSize() -> c
+    139:140:void setDeclaredInstanceSize(byte) -> b
+    148:148:byte getFirstReferenceToken() -> d
+    157:158:void setFirstReferenceToken(byte) -> c
+    166:166:byte getReferenceCount() -> e
+    175:176:void setReferenceCount(byte) -> d
+    184:184:byte getPublicMethodTableBase() -> f
+    193:194:void setPublicMethodTableBase(byte) -> e
+    202:202:byte getPublicMethodTableCount() -> g
+    211:212:void setPublicMethodTableCount(byte) -> f
+    220:220:byte getPackageMethodTableBase() -> h
+    229:230:void setPackageMethodTableBase(byte) -> g
+    238:238:byte getPackageMethodTableCount() -> i
+    247:248:void setPackageMethodTableCount(byte) -> h
+    256:256:java.util.ArrayList getPublicVirtualMethodTable() -> j
+    266:267:void setPublicVirtualMethodTable(java.util.ArrayList) -> a
+    275:275:java.util.ArrayList getPackageVirtualMethodTable() -> k
+    285:286:void setPackageVirtualMethodTable(java.util.ArrayList) -> b
+    294:294:java.util.ArrayList getInterfaces() -> l
+    303:304:void setInterfaces(java.util.ArrayList) -> c
+    312:312:fr.xlim.ssd.capmanipulator.library.RemoteInterfaceInfo getRemoteInterfacesInfo() -> m
+    322:323:void setRemoteInterfacesInfo(fr.xlim.ssd.capmanipulator.library.RemoteInterfaceInfo) -> a
+    326:326:int getOffset() -> n
+    330:331:void setOffset(int) -> a
+    341:421:java.lang.String toString() -> toString
+    426:428:java.lang.String convertValue(int) -> b
+    433:453:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ClassRef -> fr.xlim.ssd.capmanipulator.q:
+fr.xlim.ssd.capmanipulator.library.Component -> fr.xlim.ssd.capmanipulator.r:
+    org.slf4j.Logger logger -> a
+    byte tag -> b
+    short size -> c
+    53:54:void setTag(byte) -> b
+    62:62:byte getTag() -> c
+    71:72:void setSize(short) -> a
+    80:80:short getSize() -> d
+    86:91:java.lang.String toString() -> toString
+fr.xlim.ssd.capmanipulator.library.ComponentEnum -> fr.xlim.ssd.capmanipulator.s:
+    fr.xlim.ssd.capmanipulator.library.ComponentEnum HEADER_COMPONENT -> a
+    fr.xlim.ssd.capmanipulator.library.ComponentEnum DIRECTORY_COMPONENT -> b
+    fr.xlim.ssd.capmanipulator.library.ComponentEnum APPLET_COMPONENT -> c
+    fr.xlim.ssd.capmanipulator.library.ComponentEnum IMPORT_COMPONENT -> d
+    fr.xlim.ssd.capmanipulator.library.ComponentEnum CONSTANT_POOL_COMPONENT -> e
+    fr.xlim.ssd.capmanipulator.library.ComponentEnum CLASS_COMPONENT -> f
+    fr.xlim.ssd.capmanipulator.library.ComponentEnum METHOD_COMPONENT -> g
+    fr.xlim.ssd.capmanipulator.library.ComponentEnum STATIC_FIELD_COMPONENT -> h
+    fr.xlim.ssd.capmanipulator.library.ComponentEnum REFERENCE_LOCATION_COMPONENT -> i
+    fr.xlim.ssd.capmanipulator.library.ComponentEnum EXPORT_COMPONENT -> j
+    fr.xlim.ssd.capmanipulator.library.ComponentEnum DESCRIPTOR_COMPONENT -> k
+    fr.xlim.ssd.capmanipulator.library.ComponentEnum DEBUG_COMPONENT -> l
+    fr.xlim.ssd.capmanipulator.library.ComponentEnum DEBUG_COMPONENT_2_1 -> m
+    java.util.Map lookup -> n
+    int value -> o
+    fr.xlim.ssd.capmanipulator.library.ComponentEnum[] $VALUES -> p
+    32:32:fr.xlim.ssd.capmanipulator.library.ComponentEnum[] values() -> values
+    32:32:fr.xlim.ssd.capmanipulator.library.ComponentEnum valueOf(java.lang.String) -> valueOf
+    63:63:int getValue() -> a
+    68:68:fr.xlim.ssd.capmanipulator.library.ComponentEnum get(int) -> a
+fr.xlim.ssd.capmanipulator.library.ConstantClassRef -> fr.xlim.ssd.capmanipulator.t:
+    fr.xlim.ssd.capmanipulator.library.ClassRef classRef -> a
+    byte padding -> b
+    56:56:fr.xlim.ssd.capmanipulator.library.ClassRef getClassRef() -> a
+    65:66:void setClassRef(fr.xlim.ssd.capmanipulator.library.ClassRef) -> a
+    74:74:byte getPadding() -> b
+    83:84:void setPadding(byte) -> a
+    93:100:java.lang.String toString() -> toString
+    105:113:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ConstantInstanceFieldRef -> fr.xlim.ssd.capmanipulator.u:
+    fr.xlim.ssd.capmanipulator.library.ClassRef associatedClass -> a
+    byte token -> b
+    52:52:fr.xlim.ssd.capmanipulator.library.ClassRef getAssociatedClass() -> a
+    61:62:void setAssociatedClass(fr.xlim.ssd.capmanipulator.library.ClassRef) -> a
+    70:70:byte getToken() -> b
+    79:80:void setToken(byte) -> a
+    89:96:java.lang.String toString() -> toString
+    102:110:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ConstantPoolComponent -> fr.xlim.ssd.capmanipulator.v:
+    byte TAG_CLASS_REF -> a
+    byte TAG_INSTANCE_FIELD_REF -> b
+    byte TAG_VIRTUAL_METHOD_REF -> c
+    byte TAG_SUPER_METHOD_REF -> d
+    byte TAG_STATIC_FIELD_REF -> e
+    byte TAG_STATIC_METHOD_REF -> f
+    short count -> g
+    java.util.ArrayList constantPool -> h
+    java.util.ArrayList offsetMethodList -> i
+    64:65:void setCount(short) -> b
+    73:73:short getCount() -> a
+    82:83:void setConstantPool(java.util.ArrayList) -> a
+    92:92:boolean offsetExist(short) -> c
+    102:102:fr.xlim.ssd.capmanipulator.library.ConstantPoolInfo getToken(short) -> d
+    111:111:java.util.ArrayList getConstantPool() -> b
+    120:120:java.util.ArrayList getOffsetMethodList() -> e
+    129:130:void setOffsetMethodList(java.util.ArrayList) -> b
+    139:162:java.lang.String toString() -> toString
+    167:176:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ConstantPoolInfo -> fr.xlim.ssd.capmanipulator.w:
+    byte tag -> a
+    49:49:byte getTag() -> c
+    58:59:void setTag(byte) -> a
+fr.xlim.ssd.capmanipulator.library.ConstantStaticFieldRef -> fr.xlim.ssd.capmanipulator.x:
+    fr.xlim.ssd.capmanipulator.library.ClassRef staticFieldRef$fc7d6c8 -> a
+    51:51:fr.xlim.ssd.capmanipulator.library.ClassRef getStaticFieldRef$59149e97() -> a
+    60:61:void setStaticFieldRef$28e176a3(fr.xlim.ssd.capmanipulator.library.ClassRef) -> a
+    71:75:java.lang.String toString() -> toString
+    80:88:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ConstantStaticMethodRef -> fr.xlim.ssd.capmanipulator.y:
+    fr.xlim.ssd.capmanipulator.library.ClassRef staticMethodRef$35ef9dcd -> a
+    51:51:fr.xlim.ssd.capmanipulator.library.ClassRef getStaticMethodRef$7cc298b4() -> a
+    60:61:void setStaticMethodRef$3520718(fr.xlim.ssd.capmanipulator.library.ClassRef) -> a
+    70:74:java.lang.String toString() -> toString
+    79:86:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ConstantSuperMethodRef -> fr.xlim.ssd.capmanipulator.z:
+    fr.xlim.ssd.capmanipulator.library.ClassRef associatedClass -> a
+    byte token -> b
+    54:54:fr.xlim.ssd.capmanipulator.library.ClassRef getAssociatedClass() -> a
+    63:64:void setAssociatedClass(fr.xlim.ssd.capmanipulator.library.ClassRef) -> a
+    72:72:byte getToken() -> b
+    81:82:void setToken(byte) -> a
+    92:97:java.lang.String toString() -> toString
+    102:110:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ConstantVirtualMethodRef -> fr.xlim.ssd.capmanipulator.aa:
+    fr.xlim.ssd.capmanipulator.library.ClassRef associatedClass -> a
+    byte token -> b
+    54:54:fr.xlim.ssd.capmanipulator.library.ClassRef getAssociatedClass() -> a
+    63:64:void setAssociatedClass(fr.xlim.ssd.capmanipulator.library.ClassRef) -> a
+    72:72:byte getToken() -> b
+    81:82:void setToken(byte) -> a
+    87:92:java.lang.String toString() -> toString
+    97:105:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.CustomComponent -> fr.xlim.ssd.capmanipulator.ab:
+    java.util.ArrayList bytes -> a
+    48:48:java.util.ArrayList getBytes() -> a
+    57:58:void setBytes(java.util.ArrayList) -> a
+fr.xlim.ssd.capmanipulator.library.CustomComponentInfo -> fr.xlim.ssd.capmanipulator.ac:
+    byte componentTag -> a
+    short size -> b
+    byte aidLength -> c
+    java.util.ArrayList aid -> d
+    47:48:void setComponentTag(byte) -> a
+    56:57:void setSize(short) -> a
+    65:66:void setAidLength(byte) -> b
+    74:75:void setAid(java.util.ArrayList) -> a
+    83:83:byte getComponentTag() -> a
+    92:92:short getSize() -> b
+    101:101:byte getAidLength() -> c
+    110:110:java.util.ArrayList getAid() -> d
+    117:132:java.lang.String toString() -> toString
+    137:147:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.DebugComponent -> fr.xlim.ssd.capmanipulator.ad:
+    short stringCount -> a
+    java.util.ArrayList stringsTable -> b
+    short packageNameIndex -> c
+    short classCount -> d
+    java.util.ArrayList classes -> e
+    org.slf4j.Logger logger -> f
+    67:68:void setStringCount(short) -> b
+    76:76:short getStringCount() -> e
+    85:85:java.util.ArrayList getStringsTable() -> a
+    97:98:void setPackageNameIndex(short) -> c
+    108:108:short getPackageNameIndex() -> f
+    117:118:void setClassCount(short) -> d
+    126:126:short getClassCount() -> g
+    135:135:java.util.ArrayList getClasses() -> b
+    145:269:java.lang.String toString() -> toString
+fr.xlim.ssd.capmanipulator.library.DescriptorComponent -> fr.xlim.ssd.capmanipulator.ae:
+    org.slf4j.Logger logger -> a
+    byte classCount -> b
+    java.util.ArrayList classes -> c
+    fr.xlim.ssd.capmanipulator.library.TypeDescriptorInfo types -> d
+    68:224:java.lang.String toString() -> toString
+    233:233:java.util.ArrayList getClasses() -> a
+    242:243:void setClasses(java.util.ArrayList) -> a
+    251:251:fr.xlim.ssd.capmanipulator.library.TypeDescriptorInfo getTypes() -> b
+    260:261:void setTypes(fr.xlim.ssd.capmanipulator.library.TypeDescriptorInfo) -> a
+    269:270:void setClassCount(byte) -> a
+    278:278:byte getClassCount() -> e
+    283:292:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.DirectoryComponent -> fr.xlim.ssd.capmanipulator.af:
+    org.slf4j.Logger logger -> a
+    int COMPONENT_NUMBER -> b
+    java.util.ArrayList componentSize -> c
+    fr.xlim.ssd.capmanipulator.library.StaticFieldSizeInfo staticFieldSize -> d
+    byte importCount -> e
+    byte appletCount -> f
+    byte customCount -> g
+    java.util.ArrayList customComponent -> h
+    69:70:void setComponentSize(java.util.ArrayList) -> a
+    78:78:java.util.ArrayList getComponentSize() -> a
+    87:88:void setStaticFieldSize(fr.xlim.ssd.capmanipulator.library.StaticFieldSizeInfo) -> a
+    96:96:fr.xlim.ssd.capmanipulator.library.StaticFieldSizeInfo getStaticFieldSize() -> b
+    105:106:void setImportCount(byte) -> a
+    114:114:byte getImportCount() -> e
+    123:124:void setAppletCount(byte) -> c
+    132:132:byte getAppletCount() -> f
+    141:142:void setCustomCount(byte) -> d
+    150:150:byte getCustomCount() -> g
+    159:160:void setCustomComponent(java.util.ArrayList) -> b
+    168:168:java.util.ArrayList getCustomComponent() -> h
+    178:217:java.lang.String toString() -> toString
+    221:222:void setHeaderComponentSize(short) -> f
+    225:226:void setDirectoryComponentSize(short) -> g
+    229:230:void setImportComponentSize(short) -> h
+    233:234:void setAppletComponentSize(short) -> i
+    237:238:void setClassComponentSize(short) -> j
+    241:242:void setMethodComponentSize(short) -> b
+    245:246:void setStaticFieldComponentSize(short) -> k
+    249:250:void setExportComponentSize(short) -> l
+    253:254:void setConstantPoolComponentSize(short) -> c
+    257:258:void setReferenceLocationComponentSize(short) -> d
+    261:262:void setDescriptorComponentSize(short) -> e
+    266:266:short getHeaderComponentSize() -> i
+    270:270:short getDirectoryComponentSize() -> j
+    274:274:short getImportComponentSize() -> k
+    278:278:short getAppletComponentSize() -> l
+    282:282:short getClassComponentSize() -> m
+    286:286:short getMethodComponentSize() -> n
+    290:290:short getStaticFieldComponentSize() -> o
+    294:294:short getExportComponentSize() -> p
+    298:298:short getConstantPoolComponentSize() -> q
+    302:302:short getReferenceLocationComponentSize() -> r
+    306:306:short getDescriptorComponentSize() -> s
+    311:323:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ExceptionHandlerInfo -> fr.xlim.ssd.capmanipulator.ag:
+    short startOffset -> a
+    byte stop_bit -> b
+    byte active_length -> c
+    short handlerOffset -> d
+    short catchTypeIndex -> e
+    58:67:java.lang.String toString() -> toString
+    74:74:short getStartOffset() -> a
+    81:82:void setStartOffset(short) -> a
+    88:88:short getBitfield() -> b
+    96:98:void setBitfield(short) -> b
+    104:104:short getHandlerOffset() -> c
+    111:112:void setHandlerOffset(short) -> c
+    118:118:short getCatchTypeIndex() -> d
+    125:126:void setCatchTypeIndex(short) -> d
+    132:132:byte getStop_bit() -> e
+    141:142:void setStop_bit(byte) -> b
+    148:148:byte getActive_length() -> f
+    157:158:void setActive_length(byte) -> a
+    162:172:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ExportComponent -> fr.xlim.ssd.capmanipulator.ah:
+    byte classCount -> a
+    java.util.ArrayList classExports -> b
+    48:63:java.lang.String toString() -> toString
+    72:73:void setClassCount(byte) -> a
+    81:81:byte getClassCount() -> a
+    90:90:java.util.ArrayList getClassExports() -> b
+    99:100:void setClassExports(java.util.ArrayList) -> a
+    104:112:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ExtendedMethodHeaderInfo -> fr.xlim.ssd.capmanipulator.ai:
+    byte padding -> a
+    39:48:java.lang.String toString() -> toString
+    57:57:byte getPadding() -> a
+    66:67:void setPadding(byte) -> a
+fr.xlim.ssd.capmanipulator.library.ExternalClassRef -> fr.xlim.ssd.capmanipulator.aj:
+    byte packageToken -> a
+    byte classToken -> b
+    53:53:byte getClassToken() -> a
+    62:63:void setClassToken(byte) -> a
+    71:71:byte getPackageToken() -> b
+    80:81:void setPackageToken(byte) -> b
+    90:95:java.lang.String toString() -> toString
+    100:108:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ExternalStaticFieldRef -> fr.xlim.ssd.capmanipulator.ak:
+    byte packageToken -> a
+    byte classToken -> b
+    byte token -> c
+    57:57:byte getPackageToken() -> a
+    66:67:void setPackageToken(byte) -> a
+    75:75:byte getClassToken() -> b
+    84:85:void setClassToken(byte) -> b
+    93:93:byte getToken() -> c
+    102:103:void setToken(byte) -> c
+    110:116:java.lang.String toString() -> toString
+    121:130:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ExternalStaticMethodRef -> fr.xlim.ssd.capmanipulator.al:
+    byte packageToken -> a
+    byte classToken -> b
+    byte token -> c
+    69:69:byte getPackageToken() -> a
+    78:79:void setPackageToken(byte) -> a
+    87:87:byte getClassToken() -> b
+    96:97:void setClassToken(byte) -> b
+    105:105:byte getToken() -> c
+    114:115:void setToken(byte) -> c
+    122:128:java.lang.String toString() -> toString
+    133:142:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.FieldDebugInfo -> fr.xlim.ssd.capmanipulator.am:
+    short ACC_PUBLIC -> a
+    short ACC_PRIVATE -> b
+    short ACC_PROTECTED -> c
+    short ACC_STATIC -> d
+    short ACC_FINAL -> e
+    short nameIndex -> f
+    short descriptorIndex -> g
+    short accessFlags -> h
+    int contents -> i
+    fr.xlim.ssd.capmanipulator.library.FieldDebugInfo$TokenVar token_var -> j
+    fr.xlim.ssd.capmanipulator.library.FieldDebugInfo$LocationVar location_var -> k
+    int const_value -> l
+    139:139:int getConst_value() -> e
+    143:144:void setConst_value(int) -> b
+    147:147:int getContents() -> a
+    151:152:void setContents(int) -> a
+    155:155:fr.xlim.ssd.capmanipulator.library.FieldDebugInfo$TokenVar getToken_var() -> f
+    159:160:void setToken_var(byte,byte,byte,byte) -> a
+    163:163:fr.xlim.ssd.capmanipulator.library.FieldDebugInfo$LocationVar getLocation_var() -> g
+    167:168:void setLocation_var(short,short) -> a
+    171:171:short getNameIndex() -> b
+    175:176:void setNameIndex(short) -> a
+    179:179:short getDescriptorIndex() -> c
+    183:184:void setDescriptorIndex(short) -> b
+    187:187:short getAccessFlags() -> d
+    191:192:void setAccessFlags(short) -> c
+    195:195:int getConstValue() -> h
+    199:200:void setConstValue(int) -> c
+fr.xlim.ssd.capmanipulator.library.FieldDebugInfo$LocationVar -> fr.xlim.ssd.capmanipulator.am$a:
+    short pad -> a
+    short location -> b
+    fr.xlim.ssd.capmanipulator.library.FieldDebugInfo this$0 -> c
+    117:117:short getPad() -> a
+    121:122:void setPad(short) -> a
+    125:125:short getLocation() -> b
+    129:130:void setLocation(short) -> b
+fr.xlim.ssd.capmanipulator.library.FieldDebugInfo$TokenVar -> fr.xlim.ssd.capmanipulator.am$b:
+    byte pad1 -> a
+    byte pad2 -> b
+    byte pad3 -> c
+    byte token -> d
+    fr.xlim.ssd.capmanipulator.library.FieldDebugInfo this$0 -> e
+    71:71:byte getPad1() -> a
+    75:76:void setPad1(byte) -> a
+    79:79:byte getPad2() -> b
+    83:84:void setPad2(byte) -> b
+    87:87:byte getPad3() -> c
+    91:92:void setPad3(byte) -> c
+    95:95:byte getToken() -> d
+    99:100:void setToken(byte) -> d
+fr.xlim.ssd.capmanipulator.library.FieldDescriptorInfo -> fr.xlim.ssd.capmanipulator.an:
+    byte ACC_PUBLIC -> a
+    byte ACC_PRIVATE -> b
+    byte ACC_PROTECTED -> c
+    byte ACC_STATIC -> d
+    byte ACC_FINAL -> e
+    byte token -> f
+    byte accesFlags -> g
+    fr.xlim.ssd.capmanipulator.library.FieldRef fieldRef -> h
+    short type -> i
+    55:109:java.lang.String toString() -> toString
+    118:118:byte getAccessFlags() -> a
+    127:128:void setAccesFlags(byte) -> a
+    136:136:fr.xlim.ssd.capmanipulator.library.FieldRef getFieldRef() -> b
+    145:146:void setFieldRef(fr.xlim.ssd.capmanipulator.library.FieldRef) -> a
+    154:154:byte getToken() -> c
+    163:164:void setToken(byte) -> b
+    172:172:short getType() -> d
+    181:182:void setType(short) -> a
+    186:196:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.FieldRef -> fr.xlim.ssd.capmanipulator.ao:
+fr.xlim.ssd.capmanipulator.library.HeaderComponent -> fr.xlim.ssd.capmanipulator.ap:
+    org.slf4j.Logger logger -> a
+    int magic -> b
+    byte minorVersion -> c
+    byte majorVersion -> d
+    byte flags -> e
+    fr.xlim.ssd.capmanipulator.library.PackageInfo thePackage -> f
+    fr.xlim.ssd.capmanipulator.library.PackageNameInfo packageName -> g
+    63:64:void setMagic(int) -> a
+    72:72:int getMagic() -> a
+    81:82:void setMinorVersion(byte) -> a
+    90:90:byte getMinorVersion() -> b
+    99:100:void setMajorVersion(byte) -> c
+    108:108:byte getMajorVersion() -> e
+    117:118:void setFlags(byte) -> d
+    126:126:byte getFlags() -> f
+    135:136:void setThePackage(fr.xlim.ssd.capmanipulator.library.PackageInfo) -> a
+    144:144:fr.xlim.ssd.capmanipulator.library.PackageInfo getThePackage() -> g
+    153:154:void setPackageName(fr.xlim.ssd.capmanipulator.library.PackageNameInfo) -> a
+    162:162:fr.xlim.ssd.capmanipulator.library.PackageNameInfo getPackageName() -> h
+    171:185:java.lang.String toString() -> toString
+    190:202:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ImplementedInterfaceInfo -> fr.xlim.ssd.capmanipulator.aq:
+    fr.xlim.ssd.capmanipulator.library.ClassRef theInterface -> a
+    byte count -> b
+    java.util.ArrayList index -> c
+    52:52:fr.xlim.ssd.capmanipulator.library.ClassRef getTheInterface() -> a
+    61:62:void setTheInterface(fr.xlim.ssd.capmanipulator.library.ClassRef) -> a
+    70:70:byte getCount() -> b
+    79:80:void setCount(byte) -> a
+    88:88:java.util.ArrayList getIndex() -> c
+    97:98:void setIndex(java.util.ArrayList) -> a
+    108:118:java.lang.String toString() -> toString
+    124:133:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ImportComponent -> fr.xlim.ssd.capmanipulator.ar:
+    byte count -> a
+    java.util.ArrayList packages -> b
+    52:53:void setCount(byte) -> a
+    61:61:byte getCount() -> a
+    70:71:void setPackages(java.util.ArrayList) -> a
+    79:79:java.util.ArrayList getPackages() -> b
+    88:104:java.lang.String toString() -> toString
+    109:117:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.InstanceField -> fr.xlim.ssd.capmanipulator.as:
+    fr.xlim.ssd.capmanipulator.library.ClassRef class_ -> a
+    byte token -> b
+    54:54:fr.xlim.ssd.capmanipulator.library.ClassRef getClass_() -> a
+    63:64:void setClass_(fr.xlim.ssd.capmanipulator.library.ClassRef) -> a
+    72:72:byte getToken() -> b
+    81:82:void setToken(byte) -> a
+fr.xlim.ssd.capmanipulator.library.Instruction -> fr.xlim.ssd.capmanipulator.at:
+    fr.xlim.ssd.capmanipulator.library.Instruction NOP -> l
+    fr.xlim.ssd.capmanipulator.library.Instruction AALOAD -> m
+    fr.xlim.ssd.capmanipulator.library.Instruction AASTORE -> n
+    fr.xlim.ssd.capmanipulator.library.Instruction ACONST_NULL -> o
+    fr.xlim.ssd.capmanipulator.library.Instruction ALOAD -> p
+    fr.xlim.ssd.capmanipulator.library.Instruction ALOAD_0 -> a
+    fr.xlim.ssd.capmanipulator.library.Instruction ALOAD_1 -> q
+    fr.xlim.ssd.capmanipulator.library.Instruction ALOAD_2 -> r
+    fr.xlim.ssd.capmanipulator.library.Instruction ALOAD_3 -> s
+    fr.xlim.ssd.capmanipulator.library.Instruction ANEWARRAY -> t
+    fr.xlim.ssd.capmanipulator.library.Instruction ARETURN -> u
+    fr.xlim.ssd.capmanipulator.library.Instruction ARRAYLENGTH -> v
+    fr.xlim.ssd.capmanipulator.library.Instruction ASTORE -> w
+    fr.xlim.ssd.capmanipulator.library.Instruction ASTORE_0 -> x
+    fr.xlim.ssd.capmanipulator.library.Instruction ASTORE_1 -> b
+    fr.xlim.ssd.capmanipulator.library.Instruction ASTORE_2 -> y
+    fr.xlim.ssd.capmanipulator.library.Instruction ASTORE_3 -> z
+    fr.xlim.ssd.capmanipulator.library.Instruction ATHROW -> A
+    fr.xlim.ssd.capmanipulator.library.Instruction BALOAD -> B
+    fr.xlim.ssd.capmanipulator.library.Instruction BASTORE -> C
+    fr.xlim.ssd.capmanipulator.library.Instruction BIPUSH -> D
+    fr.xlim.ssd.capmanipulator.library.Instruction BSPUSH -> E
+    fr.xlim.ssd.capmanipulator.library.Instruction CHECKCAST -> F
+    fr.xlim.ssd.capmanipulator.library.Instruction DUP -> G
+    fr.xlim.ssd.capmanipulator.library.Instruction DUP_X -> H
+    fr.xlim.ssd.capmanipulator.library.Instruction DUP2 -> I
+    fr.xlim.ssd.capmanipulator.library.Instruction GETFIELD_A -> J
+    fr.xlim.ssd.capmanipulator.library.Instruction GETFIELD_B -> K
+    fr.xlim.ssd.capmanipulator.library.Instruction GETFIELD_S -> L
+    fr.xlim.ssd.capmanipulator.library.Instruction GETFIELD_I -> M
+    fr.xlim.ssd.capmanipulator.library.Instruction GETFIELD_A_THIS -> N
+    fr.xlim.ssd.capmanipulator.library.Instruction GETFIELD_B_THIS -> O
+    fr.xlim.ssd.capmanipulator.library.Instruction GETFIELD_S_THIS -> P
+    fr.xlim.ssd.capmanipulator.library.Instruction GETFIELD_I_THIS -> Q
+    fr.xlim.ssd.capmanipulator.library.Instruction GETFIELD_A_W -> R
+    fr.xlim.ssd.capmanipulator.library.Instruction GETFIELD_B_W -> S
+    fr.xlim.ssd.capmanipulator.library.Instruction GETFIELD_S_W -> T
+    fr.xlim.ssd.capmanipulator.library.Instruction GETFIELD_I_W -> U
+    fr.xlim.ssd.capmanipulator.library.Instruction GETSTATIC_A -> V
+    fr.xlim.ssd.capmanipulator.library.Instruction GETSTATIC_B -> W
+    fr.xlim.ssd.capmanipulator.library.Instruction GETSTATIC_S -> X
+    fr.xlim.ssd.capmanipulator.library.Instruction GETSTATIC_I -> Y
+    fr.xlim.ssd.capmanipulator.library.Instruction GOTO -> c
+    fr.xlim.ssd.capmanipulator.library.Instruction GOTO_W -> Z
+    fr.xlim.ssd.capmanipulator.library.Instruction I2B -> aa
+    fr.xlim.ssd.capmanipulator.library.Instruction I2S -> ab
+    fr.xlim.ssd.capmanipulator.library.Instruction IADD -> ac
+    fr.xlim.ssd.capmanipulator.library.Instruction IALOAD -> ad
+    fr.xlim.ssd.capmanipulator.library.Instruction IAND -> ae
+    fr.xlim.ssd.capmanipulator.library.Instruction IASTORE -> af
+    fr.xlim.ssd.capmanipulator.library.Instruction ICMP -> ag
+    fr.xlim.ssd.capmanipulator.library.Instruction ICONST_M1 -> ah
+    fr.xlim.ssd.capmanipulator.library.Instruction ICONST_0 -> ai
+    fr.xlim.ssd.capmanipulator.library.Instruction ICONST_1 -> aj
+    fr.xlim.ssd.capmanipulator.library.Instruction ICONST_2 -> ak
+    fr.xlim.ssd.capmanipulator.library.Instruction ICONST_3 -> al
+    fr.xlim.ssd.capmanipulator.library.Instruction ICONST_4 -> am
+    fr.xlim.ssd.capmanipulator.library.Instruction ICONST_5 -> an
+    fr.xlim.ssd.capmanipulator.library.Instruction IDIV -> ao
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_ACMPEQ -> ap
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_ACMPNE -> aq
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_ACMPEQ_W -> ar
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_ACMPNE_W -> as
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_SCMPEQ -> at
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_SCMPNE -> au
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_SCMPLT -> av
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_SCMPGE -> aw
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_SCMPGT -> ax
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_SCMPLE -> ay
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_SCMPEQ_W -> az
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_SCMPNE_W -> aA
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_SCMPLT_W -> aB
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_SCMPGE_W -> aC
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_SCMPGT_W -> aD
+    fr.xlim.ssd.capmanipulator.library.Instruction IF_SCMPLE_W -> aE
+    fr.xlim.ssd.capmanipulator.library.Instruction IFEQ -> aF
+    fr.xlim.ssd.capmanipulator.library.Instruction IFNE -> aG
+    fr.xlim.ssd.capmanipulator.library.Instruction IFLT -> aH
+    fr.xlim.ssd.capmanipulator.library.Instruction IFGE -> aI
+    fr.xlim.ssd.capmanipulator.library.Instruction IFGT -> aJ
+    fr.xlim.ssd.capmanipulator.library.Instruction IFLE -> aK
+    fr.xlim.ssd.capmanipulator.library.Instruction IFEQ_W -> aL
+    fr.xlim.ssd.capmanipulator.library.Instruction IFNE_W -> aM
+    fr.xlim.ssd.capmanipulator.library.Instruction IFLT_W -> aN
+    fr.xlim.ssd.capmanipulator.library.Instruction IFGE_W -> aO
+    fr.xlim.ssd.capmanipulator.library.Instruction IFGT_W -> aP
+    fr.xlim.ssd.capmanipulator.library.Instruction IFLE_W -> aQ
+    fr.xlim.ssd.capmanipulator.library.Instruction IFNONNULL -> aR
+    fr.xlim.ssd.capmanipulator.library.Instruction IFNONNULL_W -> aS
+    fr.xlim.ssd.capmanipulator.library.Instruction IFNULL -> aT
+    fr.xlim.ssd.capmanipulator.library.Instruction IFNULL_W -> aU
+    fr.xlim.ssd.capmanipulator.library.Instruction IINC -> aV
+    fr.xlim.ssd.capmanipulator.library.Instruction IINC_W -> aW
+    fr.xlim.ssd.capmanipulator.library.Instruction IIPUSH -> aX
+    fr.xlim.ssd.capmanipulator.library.Instruction ILOAD -> aY
+    fr.xlim.ssd.capmanipulator.library.Instruction ILOAD_0 -> aZ
+    fr.xlim.ssd.capmanipulator.library.Instruction ILOAD_1 -> ba
+    fr.xlim.ssd.capmanipulator.library.Instruction ILOAD_2 -> bb
+    fr.xlim.ssd.capmanipulator.library.Instruction ILOAD_3 -> bc
+    fr.xlim.ssd.capmanipulator.library.Instruction ILOOKUPSWITCH -> bd
+    fr.xlim.ssd.capmanipulator.library.Instruction INEG -> be
+    fr.xlim.ssd.capmanipulator.library.Instruction INSTANCEOF -> bf
+    fr.xlim.ssd.capmanipulator.library.Instruction INVOKEINTERFACE -> bg
+    fr.xlim.ssd.capmanipulator.library.Instruction INVOKESPECIAL -> bh
+    fr.xlim.ssd.capmanipulator.library.Instruction INVOKESTATIC -> bi
+    fr.xlim.ssd.capmanipulator.library.Instruction INVOKEVIRTUAL -> bj
+    fr.xlim.ssd.capmanipulator.library.Instruction IOR -> bk
+    fr.xlim.ssd.capmanipulator.library.Instruction IREM -> bl
+    fr.xlim.ssd.capmanipulator.library.Instruction IRETURN -> bm
+    fr.xlim.ssd.capmanipulator.library.Instruction ISHL -> bn
+    fr.xlim.ssd.capmanipulator.library.Instruction ISHR -> bo
+    fr.xlim.ssd.capmanipulator.library.Instruction ISTORE -> bp
+    fr.xlim.ssd.capmanipulator.library.Instruction ISTORE_0 -> bq
+    fr.xlim.ssd.capmanipulator.library.Instruction ISTORE_1 -> br
+    fr.xlim.ssd.capmanipulator.library.Instruction ISTORE_2 -> bs
+    fr.xlim.ssd.capmanipulator.library.Instruction ISTORE_3 -> bt
+    fr.xlim.ssd.capmanipulator.library.Instruction ISUB -> bu
+    fr.xlim.ssd.capmanipulator.library.Instruction ITABLESWITCH -> bv
+    fr.xlim.ssd.capmanipulator.library.Instruction IUSHR -> bw
+    fr.xlim.ssd.capmanipulator.library.Instruction IXOR -> bx
+    fr.xlim.ssd.capmanipulator.library.Instruction JSR -> d
+    fr.xlim.ssd.capmanipulator.library.Instruction NEW -> by
+    fr.xlim.ssd.capmanipulator.library.Instruction NEWARRAY -> bz
+    fr.xlim.ssd.capmanipulator.library.Instruction POP -> bA
+    fr.xlim.ssd.capmanipulator.library.Instruction POP2 -> bB
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTFIELD_A -> bC
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTFIELD_B -> bD
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTFIELD_S -> bE
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTFIELD_I -> bF
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTFIELD_A_THIS -> bG
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTFIELD_B_THIS -> bH
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTFIELD_S_THIS -> bI
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTFIELD_I_THIS -> bJ
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTFIELD_A_W -> bK
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTFIELD_B_W -> bL
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTFIELD_S_W -> bM
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTFIELD_I_W -> bN
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTSTATIC_A -> bO
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTSTATIC_B -> bP
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTSTATIC_S -> bQ
+    fr.xlim.ssd.capmanipulator.library.Instruction PUTSTATIC_I -> bR
+    fr.xlim.ssd.capmanipulator.library.Instruction RET -> e
+    fr.xlim.ssd.capmanipulator.library.Instruction RETURN -> f
+    fr.xlim.ssd.capmanipulator.library.Instruction S2B -> bS
+    fr.xlim.ssd.capmanipulator.library.Instruction S2I -> bT
+    fr.xlim.ssd.capmanipulator.library.Instruction SADD -> g
+    fr.xlim.ssd.capmanipulator.library.Instruction SALOAD -> bU
+    fr.xlim.ssd.capmanipulator.library.Instruction SAND -> bV
+    fr.xlim.ssd.capmanipulator.library.Instruction SASTORE -> bW
+    fr.xlim.ssd.capmanipulator.library.Instruction SCONST_M1 -> bX
+    fr.xlim.ssd.capmanipulator.library.Instruction SCONST_0 -> bY
+    fr.xlim.ssd.capmanipulator.library.Instruction SCONST_1 -> bZ
+    fr.xlim.ssd.capmanipulator.library.Instruction SCONST_2 -> ca
+    fr.xlim.ssd.capmanipulator.library.Instruction SCONST_3 -> cb
+    fr.xlim.ssd.capmanipulator.library.Instruction SCONST_4 -> cc
+    fr.xlim.ssd.capmanipulator.library.Instruction SCONST_5 -> cd
+    fr.xlim.ssd.capmanipulator.library.Instruction SDIV -> ce
+    fr.xlim.ssd.capmanipulator.library.Instruction SINC -> cf
+    fr.xlim.ssd.capmanipulator.library.Instruction SINC_W -> cg
+    fr.xlim.ssd.capmanipulator.library.Instruction SIPUSH -> ch
+    fr.xlim.ssd.capmanipulator.library.Instruction SLOAD -> h
+    fr.xlim.ssd.capmanipulator.library.Instruction SLOAD_0 -> ci
+    fr.xlim.ssd.capmanipulator.library.Instruction SLOAD_1 -> cj
+    fr.xlim.ssd.capmanipulator.library.Instruction SLOAD_2 -> ck
+    fr.xlim.ssd.capmanipulator.library.Instruction SLOAD_3 -> cl
+    fr.xlim.ssd.capmanipulator.library.Instruction SLOOKUPSWITCH -> cm
+    fr.xlim.ssd.capmanipulator.library.Instruction SMUL -> cn
+    fr.xlim.ssd.capmanipulator.library.Instruction SNEG -> co
+    fr.xlim.ssd.capmanipulator.library.Instruction SOR -> cp
+    fr.xlim.ssd.capmanipulator.library.Instruction SREM -> cq
+    fr.xlim.ssd.capmanipulator.library.Instruction SRETURN -> cr
+    fr.xlim.ssd.capmanipulator.library.Instruction SSHL -> cs
+    fr.xlim.ssd.capmanipulator.library.Instruction SSHR -> ct
+    fr.xlim.ssd.capmanipulator.library.Instruction SSPUSH -> i
+    fr.xlim.ssd.capmanipulator.library.Instruction SSTORE -> j
+    fr.xlim.ssd.capmanipulator.library.Instruction SSTORE_0 -> cu
+    fr.xlim.ssd.capmanipulator.library.Instruction SSTORE_1 -> k
+    fr.xlim.ssd.capmanipulator.library.Instruction SSTORE_2 -> cv
+    fr.xlim.ssd.capmanipulator.library.Instruction SSTORE_3 -> cw
+    fr.xlim.ssd.capmanipulator.library.Instruction SSUB -> cx
+    fr.xlim.ssd.capmanipulator.library.Instruction STABLESWITCH -> cy
+    fr.xlim.ssd.capmanipulator.library.Instruction SUSHR -> cz
+    fr.xlim.ssd.capmanipulator.library.Instruction SWAP_X -> cA
+    fr.xlim.ssd.capmanipulator.library.Instruction SXOR -> cB
+    byte value -> cC
+    int pop -> cD
+    int push -> cE
+    fr.xlim.ssd.capmanipulator.library.Instruction[] $VALUES -> cF
+    38:38:fr.xlim.ssd.capmanipulator.library.Instruction[] values() -> values
+    38:38:fr.xlim.ssd.capmanipulator.library.Instruction valueOf(java.lang.String) -> valueOf
+    235:235:byte getValue() -> a
+    239:239:fr.xlim.ssd.capmanipulator.library.Instruction valueOfByOpcode(fr.xlim.ssd.capmanipulator.library.bytecodereader.OpCode) -> a
+    243:247:fr.xlim.ssd.capmanipulator.library.Instruction valueOfByValue(byte) -> a
+fr.xlim.ssd.capmanipulator.library.InterfaceInfo -> fr.xlim.ssd.capmanipulator.au:
+    int offset -> b
+    byte bitfield -> a
+    java.util.ArrayList superInterfaces -> c
+    fr.xlim.ssd.capmanipulator.library.InterfaceNameInfo interfaceNameInfo -> d
+    61:61:byte getBitfield() -> a
+    70:71:void setBitfield(byte) -> a
+    79:79:java.util.ArrayList getSuperInterfaces() -> b
+    88:89:void setSuperInterfaces(java.util.ArrayList) -> a
+    97:97:fr.xlim.ssd.capmanipulator.library.InterfaceNameInfo getInterfaceNameInfo() -> d
+    106:107:void setInterfaceNameInfo(fr.xlim.ssd.capmanipulator.library.InterfaceNameInfo) -> a
+    110:110:int getOffset() -> c
+    114:115:void setOffset(int) -> a
+    124:146:java.lang.String toString() -> toString
+fr.xlim.ssd.capmanipulator.library.InterfaceNameInfo -> fr.xlim.ssd.capmanipulator.av:
+    byte interfaceNameLength -> a
+    java.util.ArrayList interfaceName -> b
+    52:52:byte getInterfaceNameLength() -> a
+    61:62:void setInterfaceNameLength(byte) -> a
+    70:70:java.util.ArrayList getInterfaceName() -> b
+    79:80:void setInterfaceName(java.util.ArrayList) -> a
+    89:101:java.lang.String toString() -> toString
+    106:114:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.InternalClassRef -> fr.xlim.ssd.capmanipulator.aw:
+    short internalClassRef -> a
+    52:52:short getInternalClassRef() -> a
+    61:62:void setInternalClassRef(short) -> a
+    69:72:java.lang.String toString() -> toString
+    77:84:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.InternalStaticFieldRef -> fr.xlim.ssd.capmanipulator.ax:
+    byte padding -> a
+    short offset -> b
+    53:53:byte getPadding() -> a
+    62:63:void setPadding(byte) -> a
+    71:71:short getOffset() -> b
+    80:81:void setOffset(short) -> a
+    88:92:java.lang.String toString() -> toString
+    97:105:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.InternalStaticMethodRef -> fr.xlim.ssd.capmanipulator.ay:
+    byte padding -> a
+    short offset -> b
+    62:62:byte getPadding() -> a
+    71:72:void setPadding(byte) -> a
+    80:80:short getOffset() -> b
+    89:90:void setOffset(short) -> a
+    99:101:java.lang.String toString() -> toString
+    106:114:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.LineInfo -> fr.xlim.ssd.capmanipulator.az:
+    short startPc -> a
+    short endPc -> b
+    short sourceLine -> c
+    47:47:short getStartPc() -> a
+    51:52:void setStartPc(short) -> a
+    55:55:short getEndPc() -> b
+    59:60:void setEndPc(short) -> b
+    63:63:short getSourceLine() -> c
+    67:68:void setSourceLine(short) -> c
+fr.xlim.ssd.capmanipulator.library.MethodComponent -> fr.xlim.ssd.capmanipulator.ba:
+    byte ACC_PUBLIC -> a
+    byte ACC_PRIVATE -> b
+    byte ACC_PROTECTED -> c
+    byte ACC_STATIC -> d
+    byte ACC_FINAL -> e
+    byte ACC_ABSTRACT -> f
+    byte ACC_INIT -> g
+    byte handlerCount -> h
+    java.util.ArrayList exceptionHandlers -> i
+    java.util.ArrayList methods -> j
+    java.util.ArrayList offsets -> k
+    73:234:java.lang.String toString() -> toString
+    238:249:java.lang.String calculateGoto(short,short,java.util.TreeSet) -> a
+    253:265:short getValue(fr.xlim.ssd.capmanipulator.library.bytecodereader.Argument) -> a
+    274:274:java.util.ArrayList getOffsets() -> a
+    283:284:void setOffsets(java.util.ArrayList) -> a
+    293:293:byte getHandlerCount() -> b
+    303:304:void setHandlerCount(byte) -> a
+    312:312:java.util.ArrayList getExceptionHandlers() -> e
+    322:323:void setExceptionHandlers(java.util.ArrayList) -> b
+    331:331:java.util.ArrayList getMethods() -> f
+    340:341:void setMethods(java.util.ArrayList) -> c
+    345:355:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.MethodDebugInfo -> fr.xlim.ssd.capmanipulator.bb:
+    short ACC_PUBLIC -> a
+    short ACC_PRIVATE -> b
+    short ACC_PROTECTED -> c
+    short ACC_STATIC -> d
+    short ACC_FINAL -> e
+    short ACC_NATIVE -> f
+    short ACC_ABSTRACT -> g
+    short nameIndex -> h
+    short descriptorIndex -> i
+    short accessFlags -> j
+    short location -> k
+    byte headerSize -> l
+    short bodySize -> m
+    short variableCount -> n
+    short lineCount -> o
+    java.util.ArrayList variableTable -> p
+    java.util.ArrayList lineTable -> q
+    73:73:short getNameIndex() -> a
+    77:78:void setNameIndex(short) -> a
+    81:81:short getDescriptorIndex() -> b
+    85:86:void setDescriptorIndex(short) -> b
+    89:89:short getAccessFlags() -> c
+    93:94:void setAccessFlags(short) -> c
+    97:97:short getLocation() -> d
+    101:102:void setLocation(short) -> d
+    105:105:byte getHeaderSize() -> e
+    109:110:void setHeaderSize(byte) -> a
+    113:113:short getBodySize() -> f
+    117:118:void setBodySize(short) -> e
+    121:121:short getVariableCount() -> g
+    125:126:void setVariableCount(short) -> f
+    129:129:short getLineCount() -> h
+    133:134:void setLineCount(short) -> g
+    137:137:java.util.ArrayList getVariableTable() -> i
+    141:142:void setVariableTable(java.util.ArrayList) -> a
+    145:145:java.util.ArrayList getLineTable() -> j
+    149:150:void setLineTable(java.util.ArrayList) -> b
+fr.xlim.ssd.capmanipulator.library.MethodDescriptorInfo -> fr.xlim.ssd.capmanipulator.bc:
+    byte ACC_INIT -> a
+    byte ACC_PUBLIC -> b
+    byte ACC_PRIVATE -> c
+    byte ACC_PROTECTED -> d
+    byte ACC_STATIC -> e
+    byte ACC_FINAL -> f
+    byte ACC_ABSTRACT -> g
+    byte token -> h
+    byte accessFlags -> i
+    java.lang.Short methodOffset -> j
+    short typeOffset -> k
+    short bytecodeCount -> l
+    short exceptionHandlerCount -> m
+    short exceptionHandlerIndex -> n
+    73:99:java.lang.String toString() -> toString
+    108:108:byte getAccessFlags() -> a
+    117:118:void setAccessFlags(byte) -> a
+    126:126:short getBytecodeCount() -> b
+    135:136:void setBytecodeCount(short) -> a
+    144:144:short getExceptionHandlerCount() -> c
+    153:154:void setExceptionHandlerCount(short) -> b
+    162:162:short getExceptionHandlerIndex() -> d
+    171:172:void setExceptionHandlerIndex(short) -> c
+    180:180:java.lang.Short getMethodOffset() -> e
+    189:190:void setMethodOffset(java.lang.Short) -> a
+    198:198:byte getToken() -> f
+    207:208:void setToken(byte) -> b
+    216:216:short getTypeOffset() -> g
+    225:226:void setTypeOffset(short) -> d
+    230:243:boolean equals(java.lang.Object) -> equals
+    248:255:int hashCode() -> hashCode
+fr.xlim.ssd.capmanipulator.library.MethodHeaderInfo -> fr.xlim.ssd.capmanipulator.bd:
+    byte flags -> a
+    byte maxStack -> b
+    byte nargs -> c
+    byte maxLocals -> d
+    53:61:java.lang.String toString() -> toString
+    70:70:byte getFlags() -> b
+    79:80:void setFlags(byte) -> b
+    88:88:byte getMaxStack() -> c
+    97:98:void setMaxStack(byte) -> c
+    106:106:byte getNargs() -> d
+    115:116:void setNargs(byte) -> d
+    124:124:byte getMaxLocals() -> e
+    133:134:void setMaxLocals(byte) -> e
+    138:148:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.MethodInfo -> fr.xlim.ssd.capmanipulator.be:
+    org.slf4j.Logger logger -> a
+    byte ACC_EXTENDED -> b
+    byte ACC_ABSTRACT -> c
+    byte ACC -> d
+    byte METHOD_HEADER_INFO_SIZE -> e
+    byte EXTENDED_METHOD_HEADER_INFO_SIZE -> f
+    fr.xlim.ssd.capmanipulator.library.MethodHeaderInfo methodHeader -> g
+    java.util.ArrayList bytecodes -> h
+    java.lang.Short methodInfoOffset -> i
+    java.lang.Short firstBytecodeOffset -> j
+    java.util.TreeMap opcodeMap -> k
+    74:87:java.lang.String toString() -> toString
+    96:96:fr.xlim.ssd.capmanipulator.library.MethodHeaderInfo getMethodHeader() -> a
+    105:106:void setMethodHeader(fr.xlim.ssd.capmanipulator.library.MethodHeaderInfo) -> a
+    114:114:java.util.ArrayList getBytecodes() -> b
+    123:124:void setBytecodes(java.util.ArrayList) -> a
+    127:127:java.util.Map getOpcodeMap() -> c
+    131:132:void setOpcodeMap(java.util.TreeMap) -> a
+    135:135:java.lang.Short getMethodInfoOffset() -> d
+    139:140:void setMethodInfoOffset(java.lang.Short) -> a
+    143:143:java.lang.Short getFirstBytecodeOffset() -> e
+    147:147:short getLastBytecodeOffset() -> f
+    151:152:void setFirstBytecodeOffset(java.lang.Short) -> b
+    156:166:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.PackageInfo -> fr.xlim.ssd.capmanipulator.bf:
+    org.slf4j.Logger logger -> a
+    byte minorVersion -> b
+    byte majorVersion -> c
+    byte aidLength -> d
+    java.util.ArrayList lAid -> e
+    56:56:byte getMinorVersion() -> a
+    65:65:byte getMajorVersion() -> b
+    74:74:byte getAIDLength() -> c
+    83:83:java.util.ArrayList getAID() -> d
+    92:93:void setMinorVersion(byte) -> a
+    101:102:void setMajorVersion(byte) -> b
+    110:111:void setAIDLength(byte) -> c
+    119:120:void setAID(java.util.ArrayList) -> a
+    129:164:java.lang.String toString() -> toString
+    169:179:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.PackageNameInfo -> fr.xlim.ssd.capmanipulator.bg:
+    byte nameLength -> a
+    java.util.ArrayList name -> b
+    45:45:byte getNameLength() -> a
+    54:54:java.util.ArrayList getName() -> b
+    63:64:void setNameLength(byte) -> a
+    72:73:void setName(java.util.ArrayList) -> a
+    80:94:java.lang.String toString() -> toString
+    99:107:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.ReferenceLocationComponent -> fr.xlim.ssd.capmanipulator.bh:
+    short byteIndexCount -> a
+    java.util.ArrayList offsetsToByteIndices -> b
+    java.util.ArrayList offsetsToByteIndicesGlobal -> c
+    short byte2IndexCount -> d
+    java.util.ArrayList offsetsToByte2Indices -> e
+    java.util.ArrayList offsetsToByte2IndicesGlobal -> f
+    70:70:java.util.ArrayList getOffsetsToByteIndicesGlobal() -> a
+    79:80:void setOffsetsToByteIndicesGlobal(java.util.ArrayList) -> a
+    88:88:java.util.ArrayList getOffsetsToByte2IndicesGlobal() -> b
+    97:98:void setOffsetsToByte2IndicesGlobal(java.util.ArrayList) -> b
+    105:169:java.lang.String toString() -> toString
+    178:178:short getByteIndexCount() -> e
+    187:188:void setByteIndexCount(short) -> b
+    196:196:java.util.ArrayList getOffsetsToByteIndices() -> f
+    205:206:void setOffsetsToByteIndices(java.util.ArrayList) -> c
+    214:214:short getByte2IndexCount() -> g
+    223:224:void setByte2IndexCount(short) -> c
+    232:232:java.util.ArrayList getOffsetsToByte2Indices() -> h
+    241:242:void setOffsetsToByte2Indices(java.util.ArrayList) -> d
+    246:256:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.RemoteInterfaceInfo -> fr.xlim.ssd.capmanipulator.bi:
+    byte remoteMethodsCount -> a
+    java.util.ArrayList remoteMethods -> b
+    byte hashModifierLength -> c
+    java.util.ArrayList hashModifier -> d
+    byte classNameLength -> e
+    java.util.ArrayList className -> f
+    byte remoteInterfacesCount -> g
+    java.util.ArrayList remoteInterfaces -> h
+    59:59:byte getRemoteMethodsCount() -> a
+    68:69:void setRemoteMethodsCount(byte) -> a
+    77:77:java.util.ArrayList getRemoteMethods() -> b
+    87:88:void setRemoteMethods(java.util.ArrayList) -> a
+    96:96:byte getHashModifierLength() -> c
+    105:106:void setHashModifierLength(byte) -> b
+    114:114:java.util.ArrayList getHashModifier() -> d
+    123:124:void setHashModifier(java.util.ArrayList) -> b
+    132:132:byte getClassNameLength() -> e
+    141:142:void setClassNameLength(byte) -> c
+    150:150:java.util.ArrayList getClassName() -> f
+    159:160:void setClassName(java.util.ArrayList) -> c
+    168:168:byte getRemoteInterfacesCount() -> g
+    177:178:void setRemoteInterfacesCount(byte) -> d
+    186:186:java.util.ArrayList getRemoteInterfaces() -> h
+    195:196:void setRemoteInterfaces(java.util.ArrayList) -> d
+    205:253:java.lang.String toString() -> toString
+    259:273:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.RemoteMethodInfo -> fr.xlim.ssd.capmanipulator.bj:
+    short remoteMethodHash -> a
+    short signatureOffset -> b
+    short virtualMethodToken -> c
+    48:48:short getRemoteMethodHash() -> a
+    57:58:void setRemoteMethodHash(short) -> a
+    66:66:short getSignatureOffset() -> b
+    75:76:void setSignatureOffset(short) -> b
+    84:84:short getVirtualMethodToken() -> c
+    93:94:void setVirtualMethodToken(short) -> c
+    103:114:java.lang.String toString() -> toString
+    120:129:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.StaticField -> fr.xlim.ssd.capmanipulator.bk:
+    fr.xlim.ssd.capmanipulator.library.ClassRef staticFieldRef$fc7d6c8 -> a
+    41:41:fr.xlim.ssd.capmanipulator.library.ClassRef getStaticFieldRef$59149e97() -> a
+    50:51:void setStaticField$28e176a3(fr.xlim.ssd.capmanipulator.library.ClassRef) -> a
+fr.xlim.ssd.capmanipulator.library.StaticFieldComponent -> fr.xlim.ssd.capmanipulator.bl:
+    short imageSize -> a
+    short referenceCount -> b
+    short arrayInitCount -> c
+    java.util.ArrayList arrayInit -> d
+    short defaultValueCount -> e
+    short nonDefaultValueCount -> f
+    java.util.ArrayList nonDefaultValues -> g
+    73:104:java.lang.String toString() -> toString
+    115:116:void setImageSize(short) -> b
+    125:125:short getImageSize() -> a
+    134:134:short getReferenceCount() -> b
+    143:144:void setReferenceCount(short) -> c
+    152:152:short getArrayInitCount() -> e
+    161:162:void setArrayInitCount(short) -> d
+    170:170:java.util.ArrayList getArrayInit() -> f
+    179:180:void setArrayInit(java.util.ArrayList) -> a
+    188:188:short getDefaultValueCount() -> g
+    197:198:void setDefaultValueCount(short) -> e
+    206:206:short getNonDefaultValueCount() -> h
+    215:216:void setNonDefaultValueCount(short) -> f
+    224:224:java.util.ArrayList getNonDefaultValues() -> i
+    233:234:void setNonDefaultValues(java.util.ArrayList) -> b
+    238:251:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.StaticFieldRef -> fr.xlim.ssd.capmanipulator.bm:
+fr.xlim.ssd.capmanipulator.library.StaticFieldSizeInfo -> fr.xlim.ssd.capmanipulator.bn:
+    org.slf4j.Logger logger -> a
+    short imageSize -> b
+    short arrayInitCount -> c
+    short arrayInitSize -> d
+    50:51:void setImageSize(short) -> a
+    59:60:void setArrayInitCount(short) -> b
+    68:69:void setArrayInitSize(short) -> c
+    77:77:short getImageSize() -> a
+    86:86:short getArrayInitCount() -> b
+    95:95:short getArrayInitSize() -> c
+    102:109:java.lang.String toString() -> toString
+    114:123:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.StaticMethodRef -> fr.xlim.ssd.capmanipulator.bo:
+fr.xlim.ssd.capmanipulator.library.TypeDescriptor -> fr.xlim.ssd.capmanipulator.bp:
+    byte nibbleCount -> a
+    java.util.ArrayList type -> b
+    50:50:byte getNibbleCount() -> a
+    59:60:void setNibbleCount(byte) -> a
+    68:68:java.util.ArrayList getType() -> b
+    77:78:void setType(java.util.ArrayList) -> a
+    88:99:java.lang.String toString() -> toString
+    104:112:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.TypeDescriptorInfo -> fr.xlim.ssd.capmanipulator.bq:
+    short constantPoolCount -> a
+    java.util.ArrayList constantPoolTypes -> b
+    java.util.Map typeDesc -> c
+    56:140:java.lang.String toString() -> toString
+    149:149:short getConstantPoolCount() -> a
+    158:159:void setConstantPoolCount(short) -> a
+    167:167:java.util.ArrayList getConstantPoolTypes() -> b
+    176:177:void setConstantPoolTypes(java.util.ArrayList) -> a
+    185:185:java.util.Map getTypeDesc() -> c
+    194:195:void setTypeDesc(java.util.Map) -> a
+    199:208:boolean equals(java.lang.Object) -> equals
+fr.xlim.ssd.capmanipulator.library.Utf8Info -> fr.xlim.ssd.capmanipulator.br:
+    short length -> a
+    java.util.ArrayList bytes -> b
+    org.slf4j.Logger logger -> c
+    52:52:short getLength() -> a
+    61:62:void setLength(short) -> a
+    70:70:java.util.ArrayList getBytes() -> b
+    79:80:void setBytes(java.util.ArrayList) -> a
+fr.xlim.ssd.capmanipulator.library.VariableInfo -> fr.xlim.ssd.capmanipulator.bs:
+    byte index -> a
+    short nameIndex -> b
+    short descriptorIndex -> c
+    short startPc -> d
+    short length -> e
+    56:56:byte getIndex() -> a
+    60:61:void setIndex(byte) -> a
+    64:64:short getNameIndex() -> b
+    68:69:void setNameIndex(short) -> a
+    72:72:short getDescriptorIndex() -> c
+    76:77:void setDescriptorIndex(short) -> d
+    80:80:short getStartPc() -> d
+    84:85:void setStartPc(short) -> b
+    88:88:short getLength() -> e
+    92:93:void setLength(short) -> c
+fr.xlim.ssd.capmanipulator.library.bytecodereader.Argument -> fr.xlim.ssd.capmanipulator.bt:
+    byte[] value -> a
+    boolean signed -> b
+    short size -> c
+    short expected_size -> d
+    43:43:byte[] getValue() -> a
+    50:55:void setValue(byte[]) -> a
+    89:89:boolean isSigned() -> b
+    96:97:void setSigned(boolean) -> a
+    101:107:java.lang.Object clone() -> clone
+    112:148:java.lang.String toString() -> toString
+    157:175:int getIntValue() -> c
+    185:189:void setIntValue(int) -> a
+    192:192:short getSize() -> d
+    196:197:void setSize(short) -> a
+    200:200:short getExpected_size() -> e
+    204:205:void setExpected_size(short) -> b
+fr.xlim.ssd.capmanipulator.library.bytecodereader.ByteCodeConfiguration -> fr.xlim.ssd.capmanipulator.bu:
+    org.slf4j.Logger logger -> a
+    org.jdom.Document document -> b
+    java.util.Map mBytecode -> c
+    71:155:void parseXML() -> b
+    167:172:java.lang.String FilterXMLData(java.lang.String) -> a
+    177:186:fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination getDestination(java.lang.String) -> b
+    190:190:org.jdom.Document getDocument() -> c
+    194:195:void setDocument(org.jdom.Document) -> a
+    198:198:java.util.Map getmBytecode() -> a
+    202:203:void setmBytecode(java.util.Map) -> a
+fr.xlim.ssd.capmanipulator.library.bytecodereader.ByteCodeConverter -> fr.xlim.ssd.capmanipulator.bv:
+    org.slf4j.Logger logger -> a
+    org.apache.commons.collections.bidimap.TreeBidiMap mBytecode -> b
+    56:74:java.util.ArrayList Opcode2ByteCode(java.lang.String) -> a
+    78:169:java.lang.String ByteCode2Opcode(java.util.ArrayList) -> a
+    174:180:java.util.ArrayList OpcodeMapToByteArrayList(java.util.Map) -> a
+    185:210:java.lang.String argValue(fr.xlim.ssd.capmanipulator.library.bytecodereader.Argument) -> a
+fr.xlim.ssd.capmanipulator.library.bytecodereader.Constant -> fr.xlim.ssd.capmanipulator.bw:
+    java.lang.String range -> a
+    50:50:java.lang.String getRange() -> f
+    57:58:void setRange(java.lang.String) -> a
+    62:63:java.lang.Object clone() -> clone
+fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination -> fr.xlim.ssd.capmanipulator.bx:
+    fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination CURRENT_FRAME -> a
+    fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination BYTECODE -> b
+    fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination CONSTANT_POOL -> c
+    fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination STACK -> d
+    fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination[] $VALUES -> e
+    32:32:fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination[] values() -> values
+    32:32:fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination valueOf(java.lang.String) -> valueOf
+fr.xlim.ssd.capmanipulator.library.bytecodereader.Index -> fr.xlim.ssd.capmanipulator.by:
+    fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination destination -> a
+    48:49:java.lang.Object clone() -> clone
+    56:56:fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination getDestination() -> f
+    63:64:void setDestination(fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination) -> a
+fr.xlim.ssd.capmanipulator.library.bytecodereader.Offset -> fr.xlim.ssd.capmanipulator.bz:
+    fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination destination -> a
+    40:40:fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination getDestination() -> f
+    47:48:void setDestination(fr.xlim.ssd.capmanipulator.library.bytecodereader.Destination) -> a
+    63:64:java.lang.Object clone() -> clone
+    69:102:java.lang.String toString() -> toString
+fr.xlim.ssd.capmanipulator.library.bytecodereader.OpCode -> fr.xlim.ssd.capmanipulator.ca:
+    byte value -> a
+    java.lang.String name -> b
+    java.util.ArrayList arguments -> c
+    44:44:byte getValue() -> a
+    51:52:void setValue(byte) -> a
+    58:58:java.lang.String getName() -> b
+    65:66:void setName(java.lang.String) -> a
+    72:72:java.util.ArrayList getArguments() -> c
+    79:80:void setArguments(java.util.ArrayList) -> a
+    103:109:int getOpcodeSize() -> d
+    121:134:java.util.ArrayList getByteArrayValue() -> e
+    142:148:java.lang.Object clone() -> clone
+    158:171:java.lang.String toString() -> toString
+    180:184:int compareTo(java.lang.Object) -> compareTo
+fr.xlim.ssd.capmanipulator.library.bytecodereader.Operand -> fr.xlim.ssd.capmanipulator.cb:
+fr.xlim.ssd.capmanipulator.library.editable.ConstantPoolComponentEditable -> fr.xlim.ssd.capmanipulator.cc:
+    org.slf4j.Logger logger -> a
+    fr.xlim.ssd.capmanipulator.library.CapFile capFile -> b
+    fr.xlim.ssd.capmanipulator.library.ConstantPoolComponent constantPoolComponent -> c
+    48:53:void addingConstantPoolElement(fr.xlim.ssd.capmanipulator.library.ConstantPoolInfo) -> a
+    63:68:void removingConstantPoolElement(fr.xlim.ssd.capmanipulator.library.ConstantPoolInfo) -> b
+fr.xlim.ssd.capmanipulator.library.editable.DescriptorComponentEditable -> fr.xlim.ssd.capmanipulator.cd:
+    org.slf4j.Logger logger -> a
+    fr.xlim.ssd.capmanipulator.library.CapFile capFile -> b
+    fr.xlim.ssd.capmanipulator.library.DescriptorComponent descriptorComponent -> c
+    48:65:void removeMethod(short) -> a
+    72:81:void correctingMethods() -> a
+fr.xlim.ssd.capmanipulator.library.editable.MethodInfoEditable -> fr.xlim.ssd.capmanipulator.ce:
+    org.slf4j.Logger logger -> a
+    fr.xlim.ssd.capmanipulator.library.CapFile capFile -> b
+    fr.xlim.ssd.capmanipulator.library.MethodInfo methodInfo -> c
+    69:152:void editBytecode(java.util.ArrayList) -> b
+    162:169:fr.xlim.ssd.capmanipulator.library.MethodInfo searchMethodFromPC(int) -> b
+    182:195:int insertInstruction(int,fr.xlim.ssd.capmanipulator.library.Instruction,byte[]) -> a
+    207:209:int replaceInstruction(int,fr.xlim.ssd.capmanipulator.library.Instruction,byte[]) -> b
+    219:221:int removeInstruction(int) -> a
+    234:257:void addOpCode(int,fr.xlim.ssd.capmanipulator.library.bytecodereader.OpCode) -> a
+    267:295:void removeOpCode(int) -> c
+    304:306:void regenerateByteCodeFromOpcodeMap() -> g
+    317:404:void correctJumpWhenAdd(int,int) -> a
+    416:505:void correctJumpWhenRemove(int,int) -> b
+    515:517:void correctSize(short) -> a
+    529:637:void correctMethodOffsetInOtherComponents(int) -> d
+fr.xlim.ssd.capmanipulator.library.editable.MethodInfoEditable$1 -> fr.xlim.ssd.capmanipulator.ce$1:
+    int[] $SwitchMap$fr$xlim$ssd$capmanipulator$library$bytecodereader$Destination -> a
+fr.xlim.ssd.capmanipulator.library.editable.ReferenceLocationComponentEditable -> fr.xlim.ssd.capmanipulator.cf:
+    org.slf4j.Logger logger -> a
+    fr.xlim.ssd.capmanipulator.library.CapFile capFile -> b
+    fr.xlim.ssd.capmanipulator.library.ReferenceLocationComponent referenceLocationComponent -> c
+    boolean $assertionsDisabled -> d
+    49:68:void editOffsetsToByteIndices(java.util.ArrayList) -> e
+    78:97:void editOffsetsToByte2Indices(java.util.ArrayList) -> f
+    104:119:void calculateSize() -> i
+    129:137:void correctReferenceLocationComponentOffsetWhenAdd(int,int) -> a
+    149:204:void correctReferenceLocationComponentOffsetWhenAdd2(int,int,java.util.ArrayList) -> a
+    215:221:void correctReferenceLocationComponentOffsetWhenRemove(int,int) -> b
+    232:287:void correctReferenceLocationComponentOffsetWhenRemove2(int,int,java.util.ArrayList) -> b
+    296:319:java.util.ArrayList updateOffsetsToByteIndices(java.util.ArrayList) -> g
+    329:334:void add1ByteOffset(int) -> a
+    342:347:void remove1ByteOffset(int) -> b
+    355:360:void add2ByteOffset(int) -> c
+    368:373:void remove2ByteOffset(int) -> d
+fr.xlim.ssd.capmanipulator.library.exceptions.IllegalAttributeException -> fr.xlim.ssd.capmanipulator.cg:
+fr.xlim.ssd.capmanipulator.library.exceptions.IllegalDestinationValue -> fr.xlim.ssd.capmanipulator.ch:
+fr.xlim.ssd.capmanipulator.library.exceptions.IllegalValueException -> fr.xlim.ssd.capmanipulator.ci:
+fr.xlim.ssd.capmanipulator.library.exceptions.TypeNotFoundException -> fr.xlim.ssd.capmanipulator.cj:
+fr.xlim.ssd.capmanipulator.library.exceptions.UnableToLoadByteConfigurationError -> fr.xlim.ssd.capmanipulator.ck:
+fr.xlim.ssd.capmanipulator.library.exceptions.UnableToReadCapFileException -> fr.xlim.ssd.capmanipulator.cl:
+    org.slf4j.Logger logger -> a
+fr.xlim.ssd.capmanipulator.library.exceptions.UnableToWriteCapFileException -> fr.xlim.ssd.capmanipulator.cm:
+    org.slf4j.Logger logger -> a
+fr.xlim.ssd.capmanipulator.library.exceptions.UnknownBytecodeError -> fr.xlim.ssd.capmanipulator.cn:
+fr.xlim.ssd.capmanipulator.library.exceptions.UnknownFlagException -> fr.xlim.ssd.capmanipulator.co:
+fr.xlim.ssd.capmanipulator.library.exceptions.UnknownTagException -> fr.xlim.ssd.capmanipulator.cp:
+fr.xlim.ssd.capmanipulator.library.logging.LogType -> fr.xlim.ssd.capmanipulator.cq:
+    fr.xlim.ssd.capmanipulator.library.logging.LogType COMPONENT -> a
+    fr.xlim.ssd.capmanipulator.library.logging.LogType HEADER_COMPONENT -> c
+    fr.xlim.ssd.capmanipulator.library.logging.LogType DIRECTORY_COMPONENT -> d
+    fr.xlim.ssd.capmanipulator.library.logging.LogType APPLET_COMPONENT -> e
+    fr.xlim.ssd.capmanipulator.library.logging.LogType IMPORT_COMPONENT -> f
+    fr.xlim.ssd.capmanipulator.library.logging.LogType CONSTANT_POOL_COMPONENT -> g
+    fr.xlim.ssd.capmanipulator.library.logging.LogType CLASS_COMPONENT -> h
+    fr.xlim.ssd.capmanipulator.library.logging.LogType METHOD_COMPONENT -> i
+    fr.xlim.ssd.capmanipulator.library.logging.LogType STATIC_FIELD_COMPONENT -> j
+    fr.xlim.ssd.capmanipulator.library.logging.LogType REFERENCE_LOCATION_COMPONENT -> k
+    fr.xlim.ssd.capmanipulator.library.logging.LogType EXPORT_COMPONENT -> l
+    fr.xlim.ssd.capmanipulator.library.logging.LogType DESCRIPTOR_COMPONENT -> m
+    fr.xlim.ssd.capmanipulator.library.logging.LogType DEBUG_COMPONENT -> b
+    fr.xlim.ssd.capmanipulator.library.logging.LogType CUSTOM_COMPONENT -> n
+    fr.xlim.ssd.capmanipulator.library.logging.LogType BCV_VERIFIER -> o
+    org.slf4j.Marker marker -> p
+    fr.xlim.ssd.capmanipulator.library.logging.LogType[] $VALUES -> q
+    40:40:fr.xlim.ssd.capmanipulator.library.logging.LogType[] values() -> values
+    40:40:fr.xlim.ssd.capmanipulator.library.logging.LogType valueOf(java.lang.String) -> valueOf
+    118:118:org.slf4j.Marker getMarker() -> a
+fr.xlim.ssd.capmanipulator.library.logging.filters.MarkerFilter -> fr.xlim.ssd.capmanipulator.cr:
+    java.util.ArrayList markers -> a
+    ch.qos.logback.core.spi.FilterReply onMismatch -> b
+    ch.qos.logback.core.spi.FilterReply onMatch -> c
+    75:84:ch.qos.logback.core.spi.FilterReply decide(ch.qos.logback.classic.spi.ILoggingEvent) -> a
+    93:94:void addMarker(java.lang.String) -> a
+    103:104:void setOnMismatch(ch.qos.logback.core.spi.FilterReply) -> a
+    113:114:void setOnMatch(ch.qos.logback.core.spi.FilterReply) -> b
+    122:122:java.util.List getMarker() -> a
+    131:131:ch.qos.logback.core.spi.FilterReply getOnMismatch() -> b
+    140:140:ch.qos.logback.core.spi.FilterReply getOnMatch() -> c
+    57:57:ch.qos.logback.core.spi.FilterReply decide(java.lang.Object) -> decide
+fr.xlim.ssd.capmanipulator.library.read.AppletComponentRead -> fr.xlim.ssd.capmanipulator.cs:
+    41:61:fr.xlim.ssd.capmanipulator.library.Component load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ArrayInitInfoRead -> fr.xlim.ssd.capmanipulator.ct:
+    45:55:fr.xlim.ssd.capmanipulator.library.ArrayInitInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.CapAppletRead -> fr.xlim.ssd.capmanipulator.cu:
+    40:56:fr.xlim.ssd.capmanipulator.library.CapApplet load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.CapFileRead -> fr.xlim.ssd.capmanipulator.cv:
+    org.slf4j.Logger logger -> a
+    fr.xlim.ssd.capmanipulator.library.read.CapInputStream inputStream -> b
+    boolean $assertionsDisabled -> c
+    52:94:fr.xlim.ssd.capmanipulator.library.CapFile load() -> a
+    100:146:void secondPassAnalysis(java.util.ArrayList,java.util.List,fr.xlim.ssd.capmanipulator.library.CapFile,byte) -> a
+    151:297:void firstPassAnalysis(java.util.List,java.util.List,fr.xlim.ssd.capmanipulator.library.CapFile) -> a
+fr.xlim.ssd.capmanipulator.library.read.CapFileRead$1 -> fr.xlim.ssd.capmanipulator.cv$1:
+    int[] $SwitchMap$fr$xlim$ssd$capmanipulator$library$ComponentEnum -> a
+fr.xlim.ssd.capmanipulator.library.read.CapInputStream -> fr.xlim.ssd.capmanipulator.cw:
+    org.slf4j.Logger logger -> a
+    int byteRead -> b
+    boolean jarFile -> c
+    java.io.File capFile -> d
+    java.io.DataInputStream dataInputStream -> e
+    java.util.jar.JarInputStream jarInputStream -> f
+    long capSize -> g
+    int totalByteRead -> h
+    boolean srcIsFile -> i
+    byte[] dataCapFile -> j
+    boolean $assertionsDisabled -> k
+    67:77:java.io.InputStream getStream() -> h
+    85:119:void load() -> a
+    124:133:boolean isCAPFileComponent(java.util.zip.ZipEntry) -> a
+    137:168:boolean getNextComponent() -> b
+    179:186:byte readByte() -> c
+    191:195:void checkLoaded() -> i
+    204:211:short readShort() -> d
+    223:230:int readInt() -> e
+    240:245:void close() -> j
+    256:262:void skipBytes(int) -> a
+    270:271:void resetCount() -> f
+    279:279:int getByteRead() -> g
+    283:283:int getTotalByteRead() -> k
+fr.xlim.ssd.capmanipulator.library.read.ClassComponentRead -> fr.xlim.ssd.capmanipulator.cx:
+    39:84:fr.xlim.ssd.capmanipulator.library.Component load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ClassDebugInfoRead -> fr.xlim.ssd.capmanipulator.cy:
+    org.slf4j.Logger logger -> a
+    45:108:fr.xlim.ssd.capmanipulator.library.ClassDebugInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ClassDescriptorInfoRead -> fr.xlim.ssd.capmanipulator.cz:
+    48:85:fr.xlim.ssd.capmanipulator.library.ClassDescriptorInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ClassExportsInfoRead -> fr.xlim.ssd.capmanipulator.da:
+    45:63:fr.xlim.ssd.capmanipulator.library.ClassExportsInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ClassInfoRead -> fr.xlim.ssd.capmanipulator.db:
+    44:111:fr.xlim.ssd.capmanipulator.library.ClassInfo load(byte,int,fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ClassRefRead -> fr.xlim.ssd.capmanipulator.dc:
+    45:59:fr.xlim.ssd.capmanipulator.library.ClassRef load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ComponentRead -> fr.xlim.ssd.capmanipulator.dd:
+    org.slf4j.Logger logger -> a
+    48:53:void load(byte,fr.xlim.ssd.capmanipulator.library.read.CapInputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a
+    57:61:void checkSize(fr.xlim.ssd.capmanipulator.library.read.CapInputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a
+fr.xlim.ssd.capmanipulator.library.read.ConstantClassRefRead -> fr.xlim.ssd.capmanipulator.de:
+    42:47:fr.xlim.ssd.capmanipulator.library.ConstantClassRef load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ConstantInstanceFieldRefRead -> fr.xlim.ssd.capmanipulator.df:
+    43:48:fr.xlim.ssd.capmanipulator.library.ConstantInstanceFieldRef load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ConstantPoolComponentRead -> fr.xlim.ssd.capmanipulator.dg:
+    39:126:fr.xlim.ssd.capmanipulator.library.Component load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ConstantPoolInfoRead -> fr.xlim.ssd.capmanipulator.dh:
+fr.xlim.ssd.capmanipulator.library.read.ConstantStaticFieldRefRead -> fr.xlim.ssd.capmanipulator.di:
+    42:44:fr.xlim.ssd.capmanipulator.library.ConstantStaticFieldRef load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ConstantStaticMethodRefRead -> fr.xlim.ssd.capmanipulator.dj:
+    42:44:fr.xlim.ssd.capmanipulator.library.ConstantStaticMethodRef load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ConstantSuperMethodRefRead -> fr.xlim.ssd.capmanipulator.dk:
+    42:45:fr.xlim.ssd.capmanipulator.library.ConstantSuperMethodRef load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ConstantVirtualMethodRefRead -> fr.xlim.ssd.capmanipulator.dl:
+    42:45:fr.xlim.ssd.capmanipulator.library.ConstantVirtualMethodRef load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.CustomComponentInfoRead -> fr.xlim.ssd.capmanipulator.dm:
+    41:59:fr.xlim.ssd.capmanipulator.library.CustomComponentInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.CustomComponentRead -> fr.xlim.ssd.capmanipulator.dn:
+    byte tag -> a
+    41:55:fr.xlim.ssd.capmanipulator.library.Component load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+    59:60:void setTag(byte) -> a
+    63:63:byte getTag() -> a
+fr.xlim.ssd.capmanipulator.library.read.DebugComponentRead -> fr.xlim.ssd.capmanipulator.do:
+    org.slf4j.Logger logger -> a
+    47:96:fr.xlim.ssd.capmanipulator.library.Component load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.DescriptorComponentRead -> fr.xlim.ssd.capmanipulator.dp:
+    38:60:fr.xlim.ssd.capmanipulator.library.Component load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.DirectoryComponentRead -> fr.xlim.ssd.capmanipulator.dq:
+    org.slf4j.Logger logger -> a
+    42:85:fr.xlim.ssd.capmanipulator.library.Component load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ExceptionHandlerInfoRead -> fr.xlim.ssd.capmanipulator.dr:
+    42:47:fr.xlim.ssd.capmanipulator.library.ExceptionHandlerInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ExportComponentRead -> fr.xlim.ssd.capmanipulator.ds:
+    41:59:fr.xlim.ssd.capmanipulator.library.Component load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ExtendedMethodHeaderInfoRead -> fr.xlim.ssd.capmanipulator.dt:
+    34:41:fr.xlim.ssd.capmanipulator.library.ExtendedMethodHeaderInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream,byte) -> a
+fr.xlim.ssd.capmanipulator.library.read.FieldDebugInfoRead -> fr.xlim.ssd.capmanipulator.du:
+    org.slf4j.Logger logger -> a
+    46:115:fr.xlim.ssd.capmanipulator.library.FieldDebugInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.FieldDescriptorInfoRead -> fr.xlim.ssd.capmanipulator.dv:
+    44:69:fr.xlim.ssd.capmanipulator.library.FieldDescriptorInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.HeaderComponentRead -> fr.xlim.ssd.capmanipulator.dw:
+    org.slf4j.Logger logger -> a
+    46:86:fr.xlim.ssd.capmanipulator.library.Component load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ImplementedInterfaceInfoRead -> fr.xlim.ssd.capmanipulator.dx:
+    43:53:fr.xlim.ssd.capmanipulator.library.ImplementedInterfaceInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ImportComponentRead -> fr.xlim.ssd.capmanipulator.dy:
+    41:62:fr.xlim.ssd.capmanipulator.library.Component load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.InterfaceInfoRead -> fr.xlim.ssd.capmanipulator.dz:
+    44:72:fr.xlim.ssd.capmanipulator.library.InterfaceInfo load(byte,int,fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.InterfaceNameInfoRead -> fr.xlim.ssd.capmanipulator.ea:
+    43:53:fr.xlim.ssd.capmanipulator.library.InterfaceNameInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.LineInfoRead -> fr.xlim.ssd.capmanipulator.eb:
+    org.slf4j.Logger logger -> a
+    43:62:fr.xlim.ssd.capmanipulator.library.LineInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.MethodComponentRead -> fr.xlim.ssd.capmanipulator.ec:
+    java.util.ArrayList offsets -> a
+    boolean $assertionsDisabled -> b
+    26:95:fr.xlim.ssd.capmanipulator.library.Component load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+    99:100:void setOffsets(java.util.ArrayList) -> a
+fr.xlim.ssd.capmanipulator.library.read.MethodDebugInfoRead -> fr.xlim.ssd.capmanipulator.ed:
+    org.slf4j.Logger logger -> a
+    45:101:fr.xlim.ssd.capmanipulator.library.MethodDebugInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.MethodDescriptorInfoRead -> fr.xlim.ssd.capmanipulator.ee:
+    44:54:fr.xlim.ssd.capmanipulator.library.MethodDescriptorInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.MethodHeaderInfoRead -> fr.xlim.ssd.capmanipulator.ef:
+    42:50:fr.xlim.ssd.capmanipulator.library.MethodHeaderInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream,byte) -> a
+fr.xlim.ssd.capmanipulator.library.read.MethodInfoRead -> fr.xlim.ssd.capmanipulator.eg:
+    org.slf4j.Logger logger -> a
+    33:82:fr.xlim.ssd.capmanipulator.library.MethodInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream,java.lang.Short,java.lang.Short) -> a
+    93:189:void makeOpcodeArray(fr.xlim.ssd.capmanipulator.library.MethodInfo) -> a
+fr.xlim.ssd.capmanipulator.library.read.PackageInfoRead -> fr.xlim.ssd.capmanipulator.eh:
+    org.slf4j.Logger logger -> a
+    42:66:fr.xlim.ssd.capmanipulator.library.PackageInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.PackageNameInfoRead -> fr.xlim.ssd.capmanipulator.ei:
+    41:53:fr.xlim.ssd.capmanipulator.library.PackageNameInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ReadableComponent -> fr.xlim.ssd.capmanipulator.ej:
+    fr.xlim.ssd.capmanipulator.library.Component load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.ReferenceLocationComponentRead -> fr.xlim.ssd.capmanipulator.ek:
+    40:65:fr.xlim.ssd.capmanipulator.library.Component load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+    75:97:void MakeGlobalByteArray(fr.xlim.ssd.capmanipulator.library.ReferenceLocationComponent) -> a
+fr.xlim.ssd.capmanipulator.library.read.RemoteInterfaceInfoRead -> fr.xlim.ssd.capmanipulator.el:
+    43:90:fr.xlim.ssd.capmanipulator.library.RemoteInterfaceInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.RemoteMethodInfoRead -> fr.xlim.ssd.capmanipulator.em:
+    42:50:fr.xlim.ssd.capmanipulator.library.RemoteMethodInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.StaticFieldComponentRead -> fr.xlim.ssd.capmanipulator.en:
+    40:70:fr.xlim.ssd.capmanipulator.library.Component load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.StaticFieldRefRead -> fr.xlim.ssd.capmanipulator.eo:
+    46:65:fr.xlim.ssd.capmanipulator.library.ClassRef load$49b80c03(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.StaticFieldSizeInfoRead -> fr.xlim.ssd.capmanipulator.ep:
+    org.slf4j.Logger logger -> a
+    45:59:fr.xlim.ssd.capmanipulator.library.StaticFieldSizeInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.StaticMethodRefRead -> fr.xlim.ssd.capmanipulator.eq:
+    45:62:fr.xlim.ssd.capmanipulator.library.ClassRef load$3a060ff2(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.TypeDescriptorInfoRead -> fr.xlim.ssd.capmanipulator.er:
+    48:78:fr.xlim.ssd.capmanipulator.library.TypeDescriptorInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream,fr.xlim.ssd.capmanipulator.library.DescriptorComponent) -> a
+fr.xlim.ssd.capmanipulator.library.read.TypeDescriptorRead -> fr.xlim.ssd.capmanipulator.es:
+    42:54:fr.xlim.ssd.capmanipulator.library.TypeDescriptor load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.Utf8InfoRead -> fr.xlim.ssd.capmanipulator.et:
+    org.slf4j.Logger logger -> a
+    44:57:fr.xlim.ssd.capmanipulator.library.Utf8Info load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.read.VariableInfoRead -> fr.xlim.ssd.capmanipulator.eu:
+    org.slf4j.Logger logger -> a
+    44:73:fr.xlim.ssd.capmanipulator.library.VariableInfo load(fr.xlim.ssd.capmanipulator.library.read.CapInputStream) -> a
+fr.xlim.ssd.capmanipulator.library.tool.Converter -> fr.xlim.ssd.capmanipulator.ev:
+    47:61:java.lang.String bytes2ascii(java.util.ArrayList) -> a
+    73:92:java.lang.String shorts2ascii(java.util.ArrayList) -> c
+    104:114:java.util.ArrayList ascii2bytes(java.lang.String) -> a
+    125:137:java.util.ArrayList ascii2shorts(java.lang.String) -> b
+    148:164:java.lang.String StringRepresentation(java.util.ArrayList) -> b
+    175:191:java.lang.String shortStringRepresentation(java.util.ArrayList) -> d
+    196:207:void addShortToArray(java.util.List,java.lang.Short) -> a
+    211:218:void addArrayToArray(java.util.List,java.util.List) -> a
+fr.xlim.ssd.capmanipulator.library.tool.ExtractComponent -> fr.xlim.ssd.capmanipulator.ew:
+    org.slf4j.Logger logger -> a
+    boolean $assertionsDisabled -> b
+    18:84:byte[] extractComponent(java.io.File,fr.xlim.ssd.capmanipulator.library.ComponentEnum) -> a
+fr.xlim.ssd.capmanipulator.library.tool.InstructionFactory -> fr.xlim.ssd.capmanipulator.ex:
+    31:38:boolean isAValidInstruction(java.lang.String) -> a
+    43:52:fr.xlim.ssd.capmanipulator.library.Instruction getInstruction(java.lang.String) -> b
+fr.xlim.ssd.capmanipulator.library.write.AppletComponentWrite -> fr.xlim.ssd.capmanipulator.ey:
+    org.slf4j.Logger logger -> a
+    boolean $assertionsDisabled -> b
+    17:29:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a
+fr.xlim.ssd.capmanipulator.library.write.ArrayInitInfoWrite -> fr.xlim.ssd.capmanipulator.ez:
+    17:26:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.ArrayInitInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.CapAppletWrite -> fr.xlim.ssd.capmanipulator.fa:
+    15:22:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.CapApplet) -> a
+fr.xlim.ssd.capmanipulator.library.write.CapFileWrite -> fr.xlim.ssd.capmanipulator.fb:
+    org.slf4j.Logger logger -> a
+    fr.xlim.ssd.capmanipulator.library.write.CapOutputStream outputStream -> b
+    22:23:void close() -> a
+    40:84:void writeFileOrder(fr.xlim.ssd.capmanipulator.library.CapFile) -> a
+    96:172:void writeJarFile(fr.xlim.ssd.capmanipulator.library.CapFile,java.lang.String) -> a
+fr.xlim.ssd.capmanipulator.library.write.CapOutputStream -> fr.xlim.ssd.capmanipulator.fc:
+    org.slf4j.Logger logger -> a
+    java.io.DataOutputStream out -> b
+    21:21:java.io.DataOutputStream getOut() -> a
+    26:29:void writeShort(short) -> a
+    35:38:void writeByte(byte) -> a
+    44:47:void writeInt(int) -> a
+    53:56:void close() -> b
+fr.xlim.ssd.capmanipulator.library.write.ClassComponentWrite -> fr.xlim.ssd.capmanipulator.fd:
+    boolean $assertionsDisabled -> a
+    14:34:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a
+fr.xlim.ssd.capmanipulator.library.write.ClassDescriptorInfoWrite -> fr.xlim.ssd.capmanipulator.fe:
+    21:52:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.ClassDescriptorInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.ClassExportsInfoWrite -> fr.xlim.ssd.capmanipulator.ff:
+    18:35:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.ClassExportsInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.ClassInfoWrite -> fr.xlim.ssd.capmanipulator.fg:
+    18:46:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.ClassInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.ClassRefWrite -> fr.xlim.ssd.capmanipulator.fh:
+    11:17:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.ClassRef) -> a
+fr.xlim.ssd.capmanipulator.library.write.ComponentWrite -> fr.xlim.ssd.capmanipulator.fi:
+    19:21:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a
+fr.xlim.ssd.capmanipulator.library.write.ConstantPoolComponentWrite -> fr.xlim.ssd.capmanipulator.fj:
+    boolean $assertionsDisabled -> a
+    13:23:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a
+fr.xlim.ssd.capmanipulator.library.write.ConstantPoolInfoWrite -> fr.xlim.ssd.capmanipulator.fk:
+    15:42:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.ConstantPoolInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.CustomComponentInfoWrite -> fr.xlim.ssd.capmanipulator.fl:
+    16:23:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.CustomComponentInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.DescriptorComponentWrite -> fr.xlim.ssd.capmanipulator.fm:
+    boolean $assertionsDisabled -> a
+    13:29:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a
+fr.xlim.ssd.capmanipulator.library.write.DirectoryComponentWrite -> fr.xlim.ssd.capmanipulator.fn:
+    boolean $assertionsDisabled -> a
+    13:31:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a
+fr.xlim.ssd.capmanipulator.library.write.ExceptionHandlerInfoWrite -> fr.xlim.ssd.capmanipulator.fo:
+    19:29:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.ExceptionHandlerInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.ExportComponentWrite -> fr.xlim.ssd.capmanipulator.fp:
+    boolean $assertionsDisabled -> a
+    13:26:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a
+fr.xlim.ssd.capmanipulator.library.write.ExtendedMethodHeaderInfoWrite -> fr.xlim.ssd.capmanipulator.fq:
+    10:20:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.ExtendedMethodHeaderInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.FieldDescriptorInfoWrite -> fr.xlim.ssd.capmanipulator.fr:
+    18:28:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.FieldDescriptorInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.FieldRefWrite -> fr.xlim.ssd.capmanipulator.fs:
+    11:23:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.FieldRef) -> a
+fr.xlim.ssd.capmanipulator.library.write.HeaderComponentWrite -> fr.xlim.ssd.capmanipulator.ft:
+    org.slf4j.Logger logger -> a
+    boolean $assertionsDisabled -> b
+    22:45:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a
+fr.xlim.ssd.capmanipulator.library.write.ImplementedInterfaceInfoWrite -> fr.xlim.ssd.capmanipulator.fu:
+    19:26:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.ImplementedInterfaceInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.ImportComponentWrite -> fr.xlim.ssd.capmanipulator.fv:
+    boolean $assertionsDisabled -> a
+    13:23:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a
+fr.xlim.ssd.capmanipulator.library.write.InterfaceInfoWrite -> fr.xlim.ssd.capmanipulator.fw:
+    18:26:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.InterfaceInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.InterfaceNameInfoWrite -> fr.xlim.ssd.capmanipulator.fx:
+    18:24:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.InterfaceNameInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.MethodComponentWrite -> fr.xlim.ssd.capmanipulator.fy:
+    boolean $assertionsDisabled -> a
+    22:43:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a
+fr.xlim.ssd.capmanipulator.library.write.MethodDescriptorInfoWrite -> fr.xlim.ssd.capmanipulator.fz:
+    19:38:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.MethodDescriptorInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.MethodHeaderInfoWrite -> fr.xlim.ssd.capmanipulator.ga:
+    18:32:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.MethodHeaderInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.MethodInfoWrite -> fr.xlim.ssd.capmanipulator.gb:
+    19:25:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.MethodInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.PackageInfoWrite -> fr.xlim.ssd.capmanipulator.gc:
+    org.slf4j.Logger logger -> a
+    20:33:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.PackageInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.ReferenceLocationComponentWrite -> fr.xlim.ssd.capmanipulator.gd:
+    boolean $assertionsDisabled -> a
+    12:33:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a
+fr.xlim.ssd.capmanipulator.library.write.RemoteInterfaceInfoWrite -> fr.xlim.ssd.capmanipulator.ge:
+    18:42:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.RemoteInterfaceInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.RemoteMethodInfoWrite -> fr.xlim.ssd.capmanipulator.gf:
+    15:18:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.RemoteMethodInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.StaticFieldComponentWrite -> fr.xlim.ssd.capmanipulator.gg:
+    org.slf4j.Logger logger -> a
+    boolean $assertionsDisabled -> b
+    17:47:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a
+fr.xlim.ssd.capmanipulator.library.write.StaticFieldRefWrite -> fr.xlim.ssd.capmanipulator.gh:
+    11:21:void write$4cac2449(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.ClassRef) -> a
+fr.xlim.ssd.capmanipulator.library.write.StaticFieldSizeInfoWrite -> fr.xlim.ssd.capmanipulator.gi:
+    15:18:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.StaticFieldSizeInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.StaticMethodRefWrite -> fr.xlim.ssd.capmanipulator.gj:
+    11:21:void write$38d3bb7c(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.ClassRef) -> a
+fr.xlim.ssd.capmanipulator.library.write.TypeDescriptorInfoWrite -> fr.xlim.ssd.capmanipulator.gk:
+    21:38:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.TypeDescriptorInfo) -> a
+fr.xlim.ssd.capmanipulator.library.write.TypeDescriptorWrite -> fr.xlim.ssd.capmanipulator.gl:
+    17:23:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.TypeDescriptor) -> a
+fr.xlim.ssd.capmanipulator.library.write.WritableComponent -> fr.xlim.ssd.capmanipulator.gm:
+    19:21:void write(fr.xlim.ssd.capmanipulator.library.write.CapOutputStream,fr.xlim.ssd.capmanipulator.library.Component) -> a

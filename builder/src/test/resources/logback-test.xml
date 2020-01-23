@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level [%logger{0}] %m%n</pattern>
+            <!--pattern>%date{HH:mm:ss.SSS} %-5p %-25([%M]) %-30.30(%c{25}:%-4line) - %m%n</pattern-->
+        </encoder>
+    </appender>
+
+    <root level="TRACE">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>

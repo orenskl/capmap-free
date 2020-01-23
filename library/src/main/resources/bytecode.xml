@@ -1,0 +1,1843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opcodes>
+
+	<opcode>
+		<value>0</value>
+		<name>nop</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>1</value>
+		<name>aconst_null</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>2</value>
+		<name>sconst_m1</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>3</value>
+		<name>sconst_0</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>4</value>
+		<name>sconst_1</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>5</value>
+		<name>sconst_2</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>6</value>
+		<name>sconst_3</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>7</value>
+		<name>sconst_4</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>8</value>
+		<name>sconst_5</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>9</value>
+		<name>iconst_m1</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>a</value>
+		<name>iconst_0</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>b</value>
+		<name>iconst_1</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>c</value>
+		<name>iconst_2</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>d</value>
+		<name>iconst_3</name>
+	</opcode>
+
+	
+	<opcode>
+		<value>e</value>
+		<name>iconst_4</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>f</value>
+		<name>iconst_5</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>10</value>
+		<name>bspush</name>
+		<parameters>
+			<parameter type="operand">
+				<size>1</size>
+				<signed>yes</signed>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>11</value>
+		<name>sspush</name>
+		<parameters>
+			<parameter type="operand">
+				<size>2</size>
+				<signed>yes</signed>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>12</value>
+		<name>bipush</name>
+		<parameters>
+			<parameter type="operand">
+				<size>1</size>
+				<signed>yes</signed>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>13</value>
+		<name>sipush</name>
+		<parameters>
+			<parameter type="operand">
+				<size>2</size>
+				<signed>yes</signed>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>14</value>
+		<name>iipush</name>
+		<parameters>
+			<parameter type="operand">
+				<size>4</size>
+				<signed>yes</signed>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>15</value>
+		<name>aload</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>current-frame</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>16</value>
+		<name>sload</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>current-frame</destination>
+			</parameter>
+		</parameters>
+	</opcode>	
+	
+
+	<opcode>
+		<value>17</value>
+		<name>iload</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>current-frame</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>18</value>
+		<name>aload_0</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>19</value>
+		<name>aload_1</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>1a</value>
+		<name>aload_2</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>1b</value>
+		<name>aload_3</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>1c</value>
+		<name>sload_0</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>1d</value>
+		<name>sload_1</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>1e</value>
+		<name>sload_2</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>1f</value>
+		<name>sload_3</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>20</value>
+		<name>iload_0</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>21</value>
+		<name>iload_1</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>22</value>
+		<name>iload_2</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>23</value>
+		<name>iload_3</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>24</value>
+		<name>aaload</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>25</value>
+		<name>baload</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>26</value>
+		<name>saload</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>27</value>
+		<name>iaload</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>28</value>
+		<name>astore</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>current-frame</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>29</value>
+		<name>sstore</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>current-frame</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>2a</value>
+		<name>istore</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>current-frame</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>2b</value>
+		<name>astore_0</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>2c</value>
+		<name>astore_1</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>2d</value>
+		<name>astore_2</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>2e</value>
+		<name>astore_3</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>2f</value>
+		<name>sstore_0</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>30</value>
+		<name>sstore_1</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>31</value>
+		<name>sstore_2</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>32</value>
+		<name>sstore_3</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>33</value>
+		<name>istore_0</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>34</value>
+		<name>istore_1</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>35</value>
+		<name>istore_2</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>36</value>
+		<name>istore_3</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>37</value>
+		<name>aastore</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>38</value>
+		<name>bastore</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>39</value>
+		<name>sastore</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>3a</value>
+		<name>iastore</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>3b</value>
+		<name>pop</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>3c</value>
+		<name>pop2</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>3d</value>
+		<name>dup</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>3e</value>
+		<name>dup2</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>3f</value>
+		<name>dup_x</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>stack</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>40</value>
+		<name>swap_x</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>stack</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>41</value>
+		<name>sadd</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>42</value>
+		<name>iadd</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>43</value>
+		<name>ssub</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>44</value>
+		<name>isub</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>45</value>
+		<name>smul</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>46</value>
+		<name>imul</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>47</value>
+		<name>sdiv</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>48</value>
+		<name>idiv</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>49</value>
+		<name>srem</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>4a</value>
+		<name>irem</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>4b</value>
+		<name>sneg</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>4c</value>
+		<name>ineg</name>
+	</opcode>
+	<opcode>
+		<value>4d</value>
+		<name>sshl</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>4e</value>
+		<name>ishl</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>4f</value>
+		<name>sshr</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>50</value>
+		<name>ishr</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>51</value>
+		<name>sushr</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>52</value>
+		<name>iushr</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>53</value>
+		<name>sand</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>54</value>
+		<name>iand</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>55</value>
+		<name>sor</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>56</value>
+		<name>ior</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>57</value>
+		<name>sxor</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>58</value>
+		<name>ixor</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>59</value>
+		<name>sinc</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>current-frame</destination>
+			</parameter>
+			<parameter type="operand">
+				<size>1</size>
+				<signed>yes</signed>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>5a</value>
+		<name>iinc</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>current-frame</destination>
+			</parameter>
+			<parameter type="operand">
+				<size>1</size>
+				<signed>yes</signed>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>5b</value>
+		<name>s2b</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>5c</value>
+		<name>s2i</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>5d</value>
+		<name>i2b</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>5e</value>
+		<name>i2s</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>5f</value>
+		<name>icmp</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>60</value>
+		<name>ifeq</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	<opcode>
+		<value>61</value>
+		<name>ifne</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>62</value>
+		<name>iflt</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>63</value>
+		<name>ifge</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>64</value>
+		<name>ifgt</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>65</value>
+		<name>ifle</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>66</value>
+		<name>ifnull</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>67</value>
+		<name>ifnonnull</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>68</value>
+		<name>if_acmpeq</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>69</value>
+		<name>if_acmpne</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+
+	<opcode>
+		<value>6a</value>
+		<name>if_scmpeq</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>6b</value>
+		<name>if_scmpne</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>6c</value>
+		<name>if_scmplt</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>6d</value>
+		<name>if_scmpge</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>6e</value>
+		<name>if_scmpgt</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>6f</value>
+		<name>if_scmple</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>70</value>
+		<name>goto</name>
+		<parameters>
+			<parameter type="offset">
+				<size>1</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>71</value>
+		<name>jsr</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>72</value>
+		<name>ret</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>current-frame</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>73</value>
+		<name>stableswitch</name>
+		<parameters>
+			<parameter type="operand">
+				<size>2</size>
+				<signed>yes</signed>
+			</parameter>
+			<parameter type="operand">
+				<size>2</size>
+				<signed>yes</signed>
+			</parameter>
+			<parameter type="operand">
+				<size>2</size>
+				<signed>yes</signed>
+			</parameter>
+			<!--  plus high - low +1 16 bit offsets -->
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>74</value>
+		<name>itableswitch</name>
+		<parameters>
+			<parameter type="operand">
+				<size>2</size>
+				<signed>yes</signed>
+			</parameter>
+			<parameter type="operand">
+				<size>4</size>
+				<signed>yes</signed>
+			</parameter>
+			<parameter type="operand">
+				<size>4</size>
+				<signed>yes</signed>
+			</parameter>
+			<!--  plus high - low +1 16 bit offsets -->
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>75</value>
+		<name>slookupswitch</name>
+		<parameters>
+			<parameter type="operand">
+				<size>2</size>
+				<signed>yes</signed>
+			</parameter>
+			<parameter type="operand">
+				<size>2</size>
+				<signed>no</signed>
+			</parameter>
+			<!-- plus un nombre variables de paires  -->
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>76</value>
+		<name>ilookupswitch</name>2
+		<parameters>
+			<parameter type="operand">
+				<size>2</size>
+				<signed>yes</signed>
+			</parameter>
+			<parameter type="operand">
+				<size>2</size>
+				<signed>no</signed>
+			</parameter>
+			<!-- plus un nombre variables de paires  -->
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>77</value>
+		<name>areturn</name>
+	</opcode>
+	
+	 
+	<opcode>
+		<value>78</value>
+		<name>sreturn</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>79</value>
+		<name>ireturn</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>7a</value>
+		<name>return</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>7b</value>
+		<name>getstatic_a</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>7c</value>
+		<name>getstatic_b</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>7d</value>
+		<name>getstatic_s</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>7e</value>
+		<name>getstatic_i</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>7f</value>
+		<name>putstatic_a</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>80</value>
+		<name>putstatic_b</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>81</value>
+		<name>putstatic_s</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>82</value>
+		<name>putstatic_i</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>83</value>
+		<name>getfield_a</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>84</value>
+		<name>getfield_b</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>85</value>
+		<name>getfield_s</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>86</value>
+		<name>getfield_i</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>87</value>
+		<name>putfield_a</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>88</value>
+		<name>putfield_b</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>89</value>
+		<name>putfield_s</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>8a</value>
+		<name>putfield_i</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>8b</value>
+		<name>invokevirtual</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>8c</value>
+		<name>invokespecial</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>8d</value>
+		<name>invokestatic</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>8e</value>
+		<name>invokeinterface</name>
+		<parameters>
+			<parameter type="operand">
+				<size>1</size>
+				<signed>no</signed>
+			</parameter>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+			<parameter type="operand">
+				<size>1</size>
+				<signed>no</signed>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>8f</value>
+		<name>new</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>90</value>
+		<name>newarray</name>
+		<parameters>
+			<parameter type="const">
+				<size>1</size>
+				<signed>no</signed>
+				<range>10-13</range>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>91</value>
+		<name>anewarray</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>92</value>
+		<name>arraylength</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>93</value>
+		<name>athrow</name>
+	</opcode>
+	
+	
+	<opcode>
+		<value>94</value>
+		<name>checkcast</name>
+		<parameters>
+			<parameter type="const">
+				<size>1</size>
+				<signed>no</signed>
+				<range>10-14</range>
+			</parameter>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>95</value>
+		<name>instanceof</name>
+		<parameters>
+			<parameter type="const">
+				<size>1</size>
+				<signed>no</signed>
+				<range>10-14</range>
+			</parameter>
+			<parameter type="index">
+				<size>2</size>
+				<signed>no</signed>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>96</value>
+		<name>sinc_w</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>current-frame</destination>
+			</parameter>
+			<parameter type="operand">
+				<size>2</size>
+				<signed>yes</signed>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>97</value>
+		<name>iinc_w</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<signed>no</signed>
+				<destination>current-frame</destination>
+			</parameter>
+			<parameter type="operand">
+				<size>2</size>
+				<signed>yes</signed>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>98</value>
+		<name>ifeq_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>99</value>
+		<name>ifne_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>9a</value>
+		<name>iflt_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>9b</value>
+		<name>ifge_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>9c</value>
+		<name>ifgt_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>9d</value>
+		<name>ifle_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>9e</value>
+		<name>ifnull_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>9f</value>
+		<name>ifnonnull_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>a0</value>
+		<name>if_acmpeq_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>a1</value>
+		<name>if_acmpne_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>a2</value>
+		<name>if_scmpeq_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>a3</value>
+		<name>if_scmpne_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>a4</value>
+		<name>if_scmplt_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>a5</value>
+		<name>if_scmpge_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>a6</value>
+		<name>if_scmpgt_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>a7</value>
+		<name>if_scmple_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>a8</value>
+		<name>goto_w</name>
+		<parameters>
+			<parameter type="offset">
+				<size>2</size>
+				<signed>yes</signed>
+				<destination>bytecode</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>a9</value>
+		<name>getfield_a_w</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>aa</value>
+		<name>getfield_b_w</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>ab</value>
+		<name>getfield_s_w</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>ac</value>
+		<name>getfield_i_w</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>ad</value>
+		<name>getfield_a_this</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>ae</value>
+		<name>getfield_b_this</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>af</value>
+		<name>getfield_s_this</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>b0</value>
+		<name>getfield_i_this</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>b1</value>
+		<name>putfield_a_w</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>b2</value>
+		<name>putfield_b_w</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>b3</value>
+		<name>putfield_s_w</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>b4</value>
+		<name>putfield_i_w</name>
+		<parameters>
+			<parameter type="index">
+				<size>2</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>b5</value>
+		<name>putfield_a_this</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+	
+	
+	<opcode>
+		<value>b6</value>
+		<name>putfield_b_this</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+
+
+	<opcode>
+		<value>b7</value>
+		<name>putfield_s_this</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+
+
+	<opcode>
+		<value>b8</value>
+		<name>putfield_i_this</name>
+		<parameters>
+			<parameter type="index">
+				<size>1</size>
+				<destination>constantpool</destination>
+			</parameter>
+		</parameters>
+	</opcode>
+
+	<opcode>
+		<value>fe</value>
+		<name>impdep1</name>
+	</opcode>
+
+	<opcode>
+		<value>ff</value>
+		<name>impdep2</name>
+	</opcode>
+
+</opcodes>

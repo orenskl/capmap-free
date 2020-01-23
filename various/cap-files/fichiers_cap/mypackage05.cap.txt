@@ -1,0 +1,745 @@
+Dump a binary file
+File: C:\Documents and Settings\julien\Bureau\fichiers cap\mypackage05.cap
+image size on load is      : 963 bytes
+system overhead for install: 54 bytes
+
+Warning: this evaluation does not include objects instanced within the applet.
+
+.header = {
+	magic             : decaffed
+	minor_version     : 1
+	major_version     : 2
+	flags             : 4
+	pkg_minor_version : 0
+	pkg_major_version : 2
+	pkg_AID_length    : d
+	pkg_AID           : 65.6e.73.69.6d.61.67.74.65.73.74.6f.62
+}
+
+.DirectoryComponent = {
+	component_sizes = {
+		Header           : 23
+		Directory        : 31
+		Applet           : 20
+		Import           : 11
+		ConstantPool     : 98
+		Class            : 24
+		Method           : 591
+		StaticField      : 199
+		ReferenceLocation: 73
+		Export           : 0
+		Descriptor       : 271
+	}
+	static_field_size_info = {
+		image_size       : 8
+		array_init_count : 3
+		array_init_size  : 180
+	}
+	import_count : 1
+	applet_count : 1
+	custom_count : 0
+}
+
+
+
+.ImportComponent = {
+	count : 1
+	package_info = {
+		minor_version : 2
+		major_version : 1
+		AID_length    : 7
+		AID           : a0.00.00.00.62.01.01
+	}
+}
+
+.Applets = {
+	AID: 65.6e.73.69.6d.61.67.74.65.73.74.6f.62.70.75.72
+	install_method_offset: @0119
+}
+
+.class { // @0000
+	classes [0]: { //@0000
+		flags = (0x0)
+		interface_count: 0
+		super_class_ref: external class 0x3 of package 0x80
+		declared_instance_size     :8
+		first_reference_index      :0
+		reference_count            :8
+		public_method_table_base   :4
+		public_method_table_count  :7
+		package_method_table_base  :0
+        package_method_table_count :0
+		public_virtual_method_table = {
+			@012b
+			inherited
+			@0127
+			@012e
+			@0001
+			@0007
+			@0012
+		}
+		package_methods = {
+		}
+		interfaces = {
+		}
+	}
+}
+
+.method {
+	method_info[0] // @0001= {
+		// flags     : 0
+		// max_stack : 1
+		// nargs     : 1
+		// max_locals: 0
+		/*0003*/ L0:   getstatic_s     0x0008
+		/*0006*/       sreturn
+	}
+
+	method_info[1] // @0007= {
+		// flags     : 0
+		// max_stack : 3
+		// nargs     : 2
+		// max_locals: 1
+		/*0009*/ L0:   bspush          0xaa
+		/*000b*/       sstore_2
+		/*000c*/       aload_1
+		/*000d*/       sconst_0
+		/*000e*/       sconst_m1
+		/*000f*/       sastore
+		/*0010*/       sload_2
+		/*0011*/       sreturn
+	}
+
+	method_info[2] // @0012= {
+		// flags     : 0
+		// max_stack : 3
+		// nargs     : 2
+		// max_locals: 1
+		/*0014*/ L0:   bspush          0xaa
+		/*0016*/       sstore_2
+		/*0017*/       aload_1
+		/*0018*/       sconst_0
+		/*0019*/       sconst_m1
+		/*001a*/       bastore
+		/*001b*/       sload_2
+		/*001c*/       sreturn
+	}
+
+	method_info[3] // @001d= {
+		// flags     : 0
+		// max_stack : 5
+		// nargs     : 4
+		// max_locals: 3
+		/*001f*/ L0:   aload_0
+		/*0020*/       invokespecial   0x0009
+		/*0023*/       aload_0
+		/*0024*/       bspush          0x64
+		/*0026*/       newarray        byte
+		/*0028*/       putfield_a      0x00
+		/*002a*/       aload_0
+		/*002b*/       bspush          0x32
+		/*002d*/       newarray        byte
+		/*002f*/       putfield_a      0x01
+		/*0031*/       aload_0
+		/*0032*/       bspush          0x32
+		/*0034*/       newarray        byte
+		/*0036*/       putfield_a      0x02
+		/*0038*/       aload_0
+		/*0039*/       bspush          0x32
+		/*003b*/       newarray        byte
+		/*003d*/       putfield_a      0x03
+		/*003f*/       aload_0
+		/*0040*/       bspush          0x32
+		/*0042*/       newarray        byte
+		/*0044*/       putfield_a      0x04
+		/*0046*/       aload_0
+		/*0047*/       bspush          0x3c
+		/*0049*/       newarray        short
+		/*004b*/       putfield_a      0x05
+		/*004d*/       aload_0
+		/*004e*/       bspush          0x50
+		/*0050*/       newarray        short
+		/*0052*/       putfield_a      0x06
+		/*0054*/       aload_0
+		/*0055*/       bspush          0x32
+		/*0057*/       newarray        boolean
+		/*0059*/       putfield_a      0x07
+		/*005b*/       sload_2
+		/*005c*/       sstore          0x04
+		/*005e*/       sconst_0
+		/*005f*/       sstore          0x05
+		/*0061*/       sload_3
+		/*0062*/       bspush          0x09
+		/*0064*/       if_scmplt       L1 // rel:+29 (@0081)
+		/*0066*/       sload           0x04
+		/*0068*/       sconst_1
+		/*0069*/       aload_1
+		/*006a*/       sload_2
+		/*006b*/       baload
+		/*006c*/       sadd
+		/*006d*/       sadd
+		/*006e*/       sstore          0x04
+		/*0070*/       sload           0x04
+		/*0072*/       sconst_1
+		/*0073*/       aload_1
+		/*0074*/       sload           0x04
+		/*0076*/       baload
+		/*0077*/       sadd
+		/*0078*/       sadd
+		/*0079*/       sstore          0x04
+		/*007b*/       sinc            0x04, 0x01
+		/*007e*/       sconst_1
+		/*007f*/       sstore          0x05
+		/*0081*/ L1:   sconst_0
+		/*0082*/       sstore          0x06
+		/*0084*/ L2:   sload           0x06
+		/*0086*/       getfield_a_this 0x00
+		/*0088*/       arraylength
+		/*0089*/       if_scmpge       L3 // rel:+14 (@0097)
+		/*008b*/       getfield_a_this 0x00
+		/*008d*/       sload           0x06
+		/*008f*/       bspush          0xb1
+		/*0091*/       bastore
+		/*0092*/       sinc            0x06, 0x01
+		/*0095*/       goto            L2 // rel:-17 (@0084)
+		/*0097*/ L3:   sconst_0
+		/*0098*/       sstore          0x06
+		/*009a*/ L4:   sload           0x06
+		/*009c*/       getfield_a_this 0x01
+		/*009e*/       arraylength
+		/*009f*/       if_scmpge       L5 // rel:+35 (@00c2)
+		/*00a1*/       getfield_a_this 0x01
+		/*00a3*/       sload           0x06
+		/*00a5*/       bspush          0xb3
+		/*00a7*/       bastore
+		/*00a8*/       getfield_a_this 0x02
+		/*00aa*/       sload           0x06
+		/*00ac*/       bspush          0xb4
+		/*00ae*/       bastore
+		/*00af*/       getfield_a_this 0x03
+		/*00b1*/       sload           0x06
+		/*00b3*/       bspush          0xb5
+		/*00b5*/       bastore
+		/*00b6*/       getfield_a_this 0x04
+		/*00b8*/       sload           0x06
+		/*00ba*/       bspush          0xb6
+		/*00bc*/       bastore
+		/*00bd*/       sinc            0x06, 0x01
+		/*00c0*/       goto            L4 // rel:-38 (@009a)
+		/*00c2*/ L5:   sconst_0
+		/*00c3*/       sstore          0x06
+		/*00c5*/ L6:   sload           0x06
+		/*00c7*/       getfield_a_this 0x05
+		/*00c9*/       arraylength
+		/*00ca*/       if_scmpge       L7 // rel:+14 (@00d8)
+		/*00cc*/       getfield_a_this 0x05
+		/*00ce*/       sload           0x06
+		/*00d0*/       bspush          0xa2
+		/*00d2*/       sastore
+		/*00d3*/       sinc            0x06, 0x01
+		/*00d6*/       goto            L6 // rel:-17 (@00c5)
+		/*00d8*/ L7:   sconst_0
+		/*00d9*/       sstore          0x06
+		/*00db*/ L8:   sload           0x06
+		/*00dd*/       getfield_a_this 0x06
+		/*00df*/       arraylength
+		/*00e0*/       if_scmpge       L9 // rel:+14 (@00ee)
+		/*00e2*/       getfield_a_this 0x06
+		/*00e4*/       sload           0x06
+		/*00e6*/       bspush          0xa3
+		/*00e8*/       sastore
+		/*00e9*/       sinc            0x06, 0x01
+		/*00ec*/       goto            L8 // rel:-17 (@00db)
+		/*00ee*/ L9:   sconst_0
+		/*00ef*/       sstore          0x06
+		/*00f1*/ L10:  sload           0x06
+		/*00f3*/       getfield_a_this 0x07
+		/*00f5*/       arraylength
+		/*00f6*/       if_scmpge       L11 // rel:+13 (@0103)
+		/*00f8*/       getfield_a_this 0x07
+		/*00fa*/       sload           0x06
+		/*00fc*/       sconst_1
+		/*00fd*/       bastore
+		/*00fe*/       sinc            0x06, 0x01
+		/*0101*/       goto            L10 // rel:-16 (@00f1)
+		/*0103*/ L11:  sload           0x05
+		/*0105*/       ifeq            L12 // rel:+15 (@0114)
+		/*0107*/       aload_0
+		/*0108*/       aload_1
+		/*0109*/       sload_2
+		/*010a*/       sconst_1
+		/*010b*/       sadd
+		/*010c*/       aload_1
+		/*010d*/       sload_2
+		/*010e*/       baload
+		/*010f*/       invokevirtual   0x000a
+		/*0112*/       goto            L13 // rel:+6 (@0118)
+		/*0114*/ L12:  aload_0
+		/*0115*/       invokevirtual   0x000b
+		/*0118*/ L13:  return
+	}
+
+	method_info[4] // @0119= {
+		// flags     : 0
+		// max_stack : 5
+		// nargs     : 3
+		// max_locals: 0
+		/*011b*/ L0:   new             0x000c
+		/*011e*/       dup
+		/*011f*/       aload_0
+		/*0120*/       sload_1
+		/*0121*/       sload_2
+		/*0122*/       invokespecial   0x000d
+		/*0125*/       pop
+		/*0126*/       return
+	}
+
+	method_info[5] // @0127= {
+		// flags     : 0
+		// max_stack : 1
+		// nargs     : 1
+		// max_locals: 0
+		/*0129*/ L0:   sconst_1
+		/*012a*/       sreturn
+	}
+
+	method_info[6] // @012b= {
+		// flags     : 0
+		// max_stack : 0
+		// nargs     : 1
+		// max_locals: 0
+		/*012d*/ L0:   return
+	}
+
+	method_info[7] // @012e= {
+		// flags     : 0
+		// max_stack : 4
+		// nargs     : 2
+		// max_locals: 2
+		/*0130*/ L0:   aload_1
+		/*0131*/       invokevirtual   0x000e
+		/*0134*/       astore_2
+		/*0135*/       aload_0
+		/*0136*/       invokevirtual   0x000f
+		/*0139*/       ifeq            L1 // rel:+3 (@013c)
+		/*013b*/       return
+		/*013c*/ L1:   aload_2
+		/*013d*/       sconst_0
+		/*013e*/       baload
+		/*013f*/       bspush          0x80
+		/*0141*/       if_scmpeq       L2 // rel:+8 (@0149)
+		/*0143*/       sspush          0x6e00
+		/*0146*/       invokestatic    0x0010
+		/*0149*/ L2:   aload_2
+		/*014a*/       sconst_2
+		/*014b*/       baload
+		/*014c*/       ifne            L3 // rel:+7 (@0153)
+		/*014e*/       aload_2
+		/*014f*/       sconst_3
+		/*0150*/       baload
+		/*0151*/       ifeq            L4 // rel:+8 (@0159)
+		/*0153*/ L3:   sspush          0x6a86
+		/*0156*/       invokestatic    0x0010
+		/*0159*/ L4:   aload_2
+		/*015a*/       sconst_1
+		/*015b*/       baload
+		/*015c*/       stableswitch
+//   default: goto L15 // rel:+242 (@024e)
+//   low    : 0x31 //49
+//   high   : 0x3a //58
+//   case 49 : goto L5 // rel:+27 (@0177)
+//   case 50 : goto L6 // rel:+48 (@018c)
+//   case 51 : goto L7 // rel:+70 (@01a2)
+//   case 52 : goto L8 // rel:+91 (@01b7)
+//   case 53 : goto L9 // rel:+112 (@01cc)
+//   case 54 : goto L10 // rel:+132 (@01e0)
+//   case 55 : goto L11 // rel:+152 (@01f4)
+//   case 56 : goto L12 // rel:+173 (@0209)
+//   case 57 : goto L13 // rel:+193 (@021d)
+//   case 58 : goto L14 // rel:+213 (@0231)
+		/*0177*/ L5:   aload_2
+		/*0178*/       sconst_0
+		/*0179*/       aload_0
+		/*017a*/       getfield_a_this 0x00
+		/*017c*/       invokevirtual   0x0011
+		/*017f*/       invokestatic    0x0012
+		/*0182*/       pop
+		/*0183*/       aload_1
+		/*0184*/       sconst_0
+		/*0185*/       sconst_2
+		/*0186*/       invokevirtual   0x0013
+		/*0189*/       goto_w          L15 // rel:+197 (@024e)
+		/*018c*/ L6:   aload_2
+		/*018d*/       sconst_0
+		/*018e*/       aload_0
+		/*018f*/       getstatic_a     0x0014
+		/*0192*/       invokevirtual   0x0011
+		/*0195*/       invokestatic    0x0012
+		/*0198*/       pop
+		/*0199*/       aload_1
+		/*019a*/       sconst_0
+		/*019b*/       sconst_2
+		/*019c*/       invokevirtual   0x0013
+		/*019f*/       goto_w          L15 // rel:+175 (@024e)
+		/*01a2*/ L7:   aload_2
+		/*01a3*/       sconst_0
+		/*01a4*/       aload_0
+		/*01a5*/       getfield_a_this 0x01
+		/*01a7*/       invokevirtual   0x0011
+		/*01aa*/       invokestatic    0x0012
+		/*01ad*/       pop
+		/*01ae*/       aload_1
+		/*01af*/       sconst_0
+		/*01b0*/       sconst_2
+		/*01b1*/       invokevirtual   0x0013
+		/*01b4*/       goto_w          L15 // rel:+154 (@024e)
+		/*01b7*/ L8:   aload_2
+		/*01b8*/       sconst_0
+		/*01b9*/       aload_0
+		/*01ba*/       getfield_a_this 0x02
+		/*01bc*/       invokevirtual   0x0011
+		/*01bf*/       invokestatic    0x0012
+		/*01c2*/       pop
+		/*01c3*/       aload_1
+		/*01c4*/       sconst_0
+		/*01c5*/       sconst_2
+		/*01c6*/       invokevirtual   0x0013
+		/*01c9*/       goto_w          L15 // rel:+133 (@024e)
+		/*01cc*/ L9:   aload_2
+		/*01cd*/       sconst_0
+		/*01ce*/       aload_0
+		/*01cf*/       getfield_a_this 0x03
+		/*01d1*/       invokevirtual   0x0011
+		/*01d4*/       invokestatic    0x0012
+		/*01d7*/       pop
+		/*01d8*/       aload_1
+		/*01d9*/       sconst_0
+		/*01da*/       sconst_2
+		/*01db*/       invokevirtual   0x0013
+		/*01de*/       goto            L15 // rel:+112 (@024e)
+		/*01e0*/ L10:  aload_2
+		/*01e1*/       sconst_0
+		/*01e2*/       aload_0
+		/*01e3*/       getfield_a_this 0x04
+		/*01e5*/       invokevirtual   0x0011
+		/*01e8*/       invokestatic    0x0012
+		/*01eb*/       pop
+		/*01ec*/       aload_1
+		/*01ed*/       sconst_0
+		/*01ee*/       sconst_2
+		/*01ef*/       invokevirtual   0x0013
+		/*01f2*/       goto            L15 // rel:+92 (@024e)
+		/*01f4*/ L11:  aload_2
+		/*01f5*/       sconst_0
+		/*01f6*/       aload_0
+		/*01f7*/       getstatic_a     0x0015
+		/*01fa*/       invokevirtual   0x0016
+		/*01fd*/       invokestatic    0x0012
+		/*0200*/       pop
+		/*0201*/       aload_1
+		/*0202*/       sconst_0
+		/*0203*/       sconst_2
+		/*0204*/       invokevirtual   0x0013
+		/*0207*/       goto            L15 // rel:+71 (@024e)
+		/*0209*/ L12:  aload_2
+		/*020a*/       sconst_0
+		/*020b*/       aload_0
+		/*020c*/       getfield_a_this 0x05
+		/*020e*/       invokevirtual   0x0016
+		/*0211*/       invokestatic    0x0012
+		/*0214*/       pop
+		/*0215*/       aload_1
+		/*0216*/       sconst_0
+		/*0217*/       sconst_2
+		/*0218*/       invokevirtual   0x0013
+		/*021b*/       goto            L15 // rel:+51 (@024e)
+		/*021d*/ L13:  aload_2
+		/*021e*/       sconst_0
+		/*021f*/       aload_0
+		/*0220*/       getfield_a_this 0x06
+		/*0222*/       invokevirtual   0x0016
+		/*0225*/       invokestatic    0x0012
+		/*0228*/       pop
+		/*0229*/       aload_1
+		/*022a*/       sconst_0
+		/*022b*/       sconst_2
+		/*022c*/       invokevirtual   0x0013
+		/*022f*/       goto            L15 // rel:+31 (@024e)
+		/*0231*/ L14:  aload_0
+		/*0232*/       invokevirtual   0x0017
+		/*0235*/       sstore_3
+		/*0236*/       aload_2
+		/*0237*/       sconst_0
+		/*0238*/       sload_3
+		/*0239*/       sspush          0x0100
+		/*023c*/       sdiv
+		/*023d*/       s2b
+		/*023e*/       bastore
+		/*023f*/       aload_2
+		/*0240*/       sconst_1
+		/*0241*/       sload_3
+		/*0242*/       sspush          0x0100
+		/*0245*/       srem
+		/*0246*/       s2b
+		/*0247*/       bastore
+		/*0248*/       aload_1
+		/*0249*/       sconst_0
+		/*024a*/       sconst_2
+		/*024b*/       invokevirtual   0x0013
+		/*024e*/ L15:  return
+	}
+}
+
+.StaticFieldComponent = {
+	image_size              : 8
+	reference_count         : 3
+	array_init_count        : 3
+	array_init = {
+		type   : byte
+		count  : 70
+		values = {
+			bb bb bb bb bb bb bb bb bb bb bb bb bb bb bb bb
+			bb bb bb bb bb bb bb bb bb bb bb bb bb bb bb bb
+			bb bb bb bb bb bb bb bb bb bb bb bb bb bb bb bb
+			bb bb bb bb bb bb bb bb bb bb bb bb bb bb bb bb
+			bb bb bb bb bb bb
+		}
+		type   : short
+		count  : 62
+		values = {
+			aa 11 aa 11 aa 11 aa 11 aa 11 aa 11 aa 11 aa 11
+			aa 11 aa 11 aa 11 aa 11 aa 11 aa 11 aa 11 aa 11
+			aa 11 aa 11 aa 11 aa 11 aa 11 aa 11 aa 11 aa 11
+			aa 11 aa 11 aa 11 aa 11 aa 11 aa 11 aa 11
+		}
+		type   : boolean
+		count  : 48
+		values = {
+			01 01 01 01 00 00 00 00 01 01 01 01 00 00 00 00
+			01 01 01 01 00 00 00 00 01 01 01 01 00 00 00 00
+			01 01 01 01 00 00 00 00 01 01 01 01 00 00 00 00
+		}
+	}
+	default_value_count     : 2
+	non_default_value_count : 0
+	non_default_values = {
+	}
+}
+
+.ConstantPool = {
+	/* 0000,   0 */ CONSTANT_InstanceFieldRef : field 2 of class 0x0000
+	/* 0004,   1 */ CONSTANT_InstanceFieldRef : field 0 of class 0x0000
+	/* 0008,   2 */ CONSTANT_InstanceFieldRef : field 3 of class 0x0000
+	/* 000c,   3 */ CONSTANT_InstanceFieldRef : field 1 of class 0x0000
+	/* 0010,   4 */ CONSTANT_InstanceFieldRef : field 4 of class 0x0000
+	/* 0014,   5 */ CONSTANT_InstanceFieldRef : field 5 of class 0x0000
+	/* 0018,   6 */ CONSTANT_InstanceFieldRef : field 6 of class 0x0000
+	/* 001c,   7 */ CONSTANT_InstanceFieldRef : field 7 of class 0x0000
+	/* 0020,   8 */ CONSTANT_StaticFieldRef   : 0x0006
+	/* 0024,   9 */ CONSTANT_StaticMethodRef  : external: 0x80, 0x3, 0x0
+	/* 0028,  10 */ CONSTANT_VirtualMethodRef : method 2 of class external: 0x80, 0x3
+	/* 002c,  11 */ CONSTANT_VirtualMethodRef : method 1 of class external: 0x80, 0x3
+	/* 0030,  12 */ CONSTANT_ClassRef         : 0x0000
+	/* 0034,  13 */ CONSTANT_StaticMethodRef  : 0x001d
+	/* 0038,  14 */ CONSTANT_VirtualMethodRef : method 1 of class external: 0x80, 0xa
+	/* 003c,  15 */ CONSTANT_VirtualMethodRef : method 3 of class external: 0x80, 0x3
+	/* 0040,  16 */ CONSTANT_StaticMethodRef  : external: 0x80, 0x7, 0x1
+	/* 0044,  17 */ CONSTANT_VirtualMethodRef : method 10 of class 0x0000
+	/* 0048,  18 */ CONSTANT_StaticMethodRef  : external: 0x80, 0x10, 0x6
+	/* 004c,  19 */ CONSTANT_VirtualMethodRef : method 8 of class external: 0x80, 0xa
+	/* 0050,  20 */ CONSTANT_StaticFieldRef   : 0x0000
+	/* 0054,  21 */ CONSTANT_StaticFieldRef   : 0x0002
+	/* 0058,  22 */ CONSTANT_VirtualMethodRef : method 9 of class 0x0000
+	/* 005c,  23 */ CONSTANT_VirtualMethodRef : method 8 of class 0x0000
+}
+
+.ReferenceLocationComponent = {
+	offsets_to_byte_indices = {
+		  @0029  @0030  @0037  @003e  @0045  @004c  @0053  @005a
+		  @0087  @008c  @009d  @00a2  @00a9  @00b0  @00b7  @00c8
+		  @00cd  @00de  @00e3  @00f4  @00f9  @017b  @01a6  @01bb
+		  @01d0  @01e4  @020d  @0221
+	}
+	offsets_to_byte2_indices = {
+		  @0004  @0021  @0110  @0116  @011c  @0123  @0132  @0137
+		  @0147  @0157  @017d  @0180  @0187  @0190  @0193  @0196
+		  @019d  @01a8  @01ab  @01b2  @01bd  @01c0  @01c7  @01d2
+		  @01d5  @01dc  @01e6  @01e9  @01f0  @01f8  @01fb  @01fe
+		  @0205  @020f  @0212  @0219  @0223  @0226  @022d  @0233
+		  @024c
+	}
+}
+
+.DescriptorComponent = {
+	count : 1
+	class_descriptor_info[0] = {
+		token        : 0
+		access_flag  : ACC_PUBLIC
+		this_class_ref : internal class reference (offset = 0000)
+		interface_count  : 0
+		field_count  : 12
+		method_count  : 8
+		fiels[0] = {
+			token          : 255
+			access_flag    : 8
+			field_ref      : 00 00 00
+			type           : 50
+		}
+		fiels[1] = {
+			token          : 255
+			access_flag    : 8
+			field_ref      : 00 00 02
+			type           : 52
+		}
+		fiels[2] = {
+			token          : 255
+			access_flag    : 8
+			field_ref      : 00 00 04
+			type           : 54
+		}
+		fiels[3] = {
+			token          : 255
+			access_flag    : 10
+			field_ref      : 00 00 06
+			type           : 32772
+		}
+		fiels[4] = {
+			token          : 0
+			access_flag    : 4
+			field_ref      : 00 00 00
+			type           : 50
+		}
+		fiels[5] = {
+			token          : 1
+			access_flag    : 1
+			field_ref      : 00 00 01
+			type           : 50
+		}
+		fiels[6] = {
+			token          : 2
+			access_flag    : 0
+			field_ref      : 00 00 02
+			type           : 50
+		}
+		fiels[7] = {
+			token          : 3
+			access_flag    : 2
+			field_ref      : 00 00 03
+			type           : 50
+		}
+		fiels[8] = {
+			token          : 4
+			access_flag    : 16
+			field_ref      : 00 00 04
+			type           : 50
+		}
+		fiels[9] = {
+			token          : 5
+			access_flag    : 0
+			field_ref      : 00 00 05
+			type           : 52
+		}
+		fiels[10] = {
+			token          : 6
+			access_flag    : 0
+			field_ref      : 00 00 06
+			type           : 52
+		}
+		fiels[11] = {
+			token          : 7
+			access_flag    : 0
+			field_ref      : 00 00 07
+			type           : 54
+		}
+		method[0] = {
+			token          : 8
+			access_flag    : (1) ACC_PUBLIC
+			method_offset  : 0x1
+			type_offset    : /* 56*/ ( ) S
+			bytecode_count : 4
+			exception_handler_count : 0
+			exception_handler_index : 0
+		}
+		method[1] = {
+			token          : 9
+			access_flag    : (1) ACC_PUBLIC
+			method_offset  : 0x7
+			type_offset    : /* 75*/ ( [S; ) S
+			bytecode_count : 9
+			exception_handler_count : 0
+			exception_handler_index : 0
+		}
+		method[2] = {
+			token          : 10
+			access_flag    : (1) ACC_PUBLIC
+			method_offset  : 0x12
+			type_offset    : /* 67*/ ( [B; ) S
+			bytecode_count : 9
+			exception_handler_count : 0
+			exception_handler_index : 0
+		}
+		method[3] = {
+			token          : 0
+			access_flag    : (84) ACC_INIT ACC_PROTECTED
+			method_offset  : 0x1d
+			type_offset    : /* 60*/ ( [B; S; B; ) V
+			bytecode_count : 250
+			exception_handler_count : 0
+			exception_handler_index : 0
+		}
+		method[4] = {
+			token          : 1
+			access_flag    : (9) ACC_STATIC ACC_PUBLIC
+			method_offset  : 0x119
+			type_offset    : /* 60*/ ( [B; S; B; ) V
+			bytecode_count : 12
+			exception_handler_count : 0
+			exception_handler_index : 0
+		}
+		method[5] = {
+			token          : 6
+			access_flag    : (1) ACC_PUBLIC
+			method_offset  : 0x127
+			type_offset    : /* 63*/ ( ) Z
+			bytecode_count : 2
+			exception_handler_count : 0
+			exception_handler_index : 0
+		}
+		method[6] = {
+			token          : 4
+			access_flag    : (1) ACC_PUBLIC
+			method_offset  : 0x12b
+			type_offset    : /* 58*/ ( ) V
+			bytecode_count : 1
+			exception_handler_count : 0
+			exception_handler_index : 0
+		}
+		method[7] = {
+			token          : 7
+			access_flag    : (1) ACC_PUBLIC
+			method_offset  : 0x12e
+			type_offset    : /* 77*/ ( L80.0a; ) V
+			bytecode_count : 287
+			exception_handler_count : 0
+			exception_handler_index : 0
+		}
+	}
+	type_descriptor_info = {
+		Initial offset value = 50
+		constant_pool_type : 32 32 32 32 32 34 34 36 38 3a 3c 3a ffff 3c 32 3f
+		                41 43 45 48 32 34 4b 38
+		type_desc[0] = (offset = 50)  [B PADDING 
+		type_desc[1] = (offset = 52)  [S PADDING 
+		type_desc[2] = (offset = 54)  [Z PADDING 
+		type_desc[3] = (offset = 56)  S PADDING 
+		type_desc[4] = (offset = 58)  V PADDING 
+		type_desc[5] = (offset = 60)  [B S B V 
+		type_desc[6] = (offset = 63)  Z PADDING 
+		type_desc[7] = (offset = 65)  S V 
+		type_desc[8] = (offset = 67)  [B S 
+		type_desc[9] = (offset = 69)  [B S S S 
+		type_desc[10] = (offset = 72)  S S V PADDING 
+		type_desc[11] = (offset = 75)  [S S 
+		type_desc[12] = (offset = 77)  L  (PACKAGE_TOKEN= 80, CLASS_TOKEN= 0a) V 
+	}
+}

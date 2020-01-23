@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+						http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>fr.xlim.ssd.capmap</groupId>
+    <artifactId>bcel</artifactId>
+    <packaging>jar</packaging>
+    <version>0.1-SNAPSHOT</version>
+    <name>capmap-bcel</name>
+    <url>http://secinfo.msi.unilim.fr</url>
+
+    <parent>
+        <groupId>fr.xlim.ssd.capmap</groupId>
+        <artifactId>capmap</artifactId>
+        <version>0.1-SNAPSHOT</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>fr.xlim.ssd.capmap</groupId>
+            <artifactId>library</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.xlim.ssd.capmap</groupId>
+            <artifactId>exp-reader</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.xlim.ssd.capmap</groupId>
+            <artifactId>builder</artifactId>
+            <version>0.1-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.gmaven</groupId>
+                <artifactId>gmaven-plugin</artifactId>
+
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
