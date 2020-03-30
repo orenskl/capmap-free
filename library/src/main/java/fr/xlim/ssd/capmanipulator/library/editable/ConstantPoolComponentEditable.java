@@ -1,7 +1,7 @@
 /**
  * ConstantPoolComponentEditable.java
  * <p>
- * Author: 2013 Guillaume Bouffard <guillaume.bouffard@unilim.fr>
+ * Copyright (C) 2013 Guillaume Bouffard <guillaume.bouffard@unilim.fr>
  * <p>
  * Université de Limoges
  */
