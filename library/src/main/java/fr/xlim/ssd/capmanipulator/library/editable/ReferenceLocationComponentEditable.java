@@ -1,8 +1,9 @@
 /**
  * MethodInfoEditable.java
  * <p>
- * Author: 2013 Guillaume Bouffard <guillaume.bouffard@xlim.fr>
+ * Copyright (C) 2013 Guillaume Bouffard <guillaume.bouffard@xlim.fr>
  * <p>
+ * Xlim - Université de Limoges
  */
 
 package fr.xlim.ssd.capmanipulator.library.editable;

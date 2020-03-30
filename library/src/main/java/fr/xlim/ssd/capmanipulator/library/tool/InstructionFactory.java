@@ -1,8 +1,9 @@
 /**
  * InstructionFactory.java
  * <p>
- * Author: 2012 Tiana Razanfindralambo <aina.razafindralambo@etu.unilim.fr>n
+ * Copyright (C) 2012 Tiana Razanfindralambo <aina.razafindralambo@etu.unilim.fr>n
  * <p>
+ * Xlim - Université de Limoges
  * <p>
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
