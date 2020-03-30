@@ -1,7 +1,7 @@
 /**
  * DescriptorComponentEditable.java
  * <p>
- * Copyright (C) 2014 Guillaume Bouffard <guillaume.bouffard@unilim.fr>
+ * Author: 2014 Guillaume Bouffard <guillaume.bouffard@unilim.fr>
  * <p>
  * Université de Limoges
  */

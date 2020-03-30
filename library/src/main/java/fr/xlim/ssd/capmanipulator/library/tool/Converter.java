@@ -1,10 +1,9 @@
 /**
  * Converter.java
  * <p>
- * Copyright (C) 2009 Guillaume Bouffard <guillaume.bouffard02@etu.unilim.fr>
- * Copyright (C) 2009 Julien Boutet <julien.boutet@etu.unilim.fr>
+ * Author: 2009 Guillaume Bouffard <guillaume.bouffard02@etu.unilim.fr>
+ * Author: 2009 Julien Boutet <julien.boutet@etu.unilim.fr>
  * <p>
- * Xlim - Université de Limoges
  * <p>
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
